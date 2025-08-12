@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from '../assets/banniere1.jpg';
+import heroImage from '../../assets/flowify/banniere1.jpg';
 import { FiTrendingUp } from 'react-icons/fi';
 import { FaStar, FaRegStar, FaStarHalfAlt } from 'react-icons/fa';
 
@@ -36,11 +36,11 @@ const Hero = () => {
   };
 
   return (
-    <section className="bg-white pt-8 px-4 sm:px-6 lg:px-8">
+    <section className="bg-white lg:pt-6 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           {/* Texte et CTA */}
-          <div className="lg:w-1/2 space-y-3 animate-fadeInUp">
+          <div className="lg:w-1/2 space-y-2 animate-fadeInUp">
             {/* Sous-titre avec icône */}
             <div className="inline-flex items-center bg-purple-100 rounded-full px-4 py-2">
               <FiTrendingUp className="text-purple-700 mr-2" />
@@ -60,7 +60,7 @@ const Hero = () => {
             {/* Boutons */}
             <div className="flex flex-wrap gap-4 pt-2">
               <button className="px-8 py-3 bg-gradient-to-r from-purple-600 to-purple-800 text-white font-medium rounded-lg hover:shadow-lg transition-all duration-300 hover:translate-y-[-2px]">
-                Commencer gratuitement
+                Découvrir
               </button>
               <button className="px-8 py-3 bg-gray-100 text-purple-700 font-medium rounded-lg hover:bg-gray-200 transition-all duration-300 hover:translate-y-[-2px]">
                 Voir la démo
@@ -96,7 +96,7 @@ const Hero = () => {
               <img
                 src={heroImage}
                 alt="Hero illustration"
-                className="w-full max-h-[65vh] object-contain transition-all duration-500 hover:scale-105"
+                className="w-full max-h-[50vh] lg:max-h-[65vh]  object-contain transition-all duration-500 hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-purple-900/20 to-purple-600/10"></div>
             </div>
