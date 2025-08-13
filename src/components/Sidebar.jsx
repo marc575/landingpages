@@ -11,6 +11,7 @@ const Sidebar = () => {
   const pages = [
     { number: 1, path: '/', name: 'Calmnest' },
     { number: 2, path: '/flowify', name: 'Flowify' },
+    { number: 3, path: '/xpress', name: 'Xpress' },
   ];
 
   // Détection de la page active
@@ -23,8 +24,8 @@ const Sidebar = () => {
   return (
     <motion.div 
       className="fixed right-0 top-1/2 transform -translate-y-1/2 h-auto z-50"
-      initial={{ x: -60 }}
-      animate={{ x: isHovered ? 0 : -40 }}
+      initial={{ x: -40 }}
+      animate={{ x: isHovered ? 0 : -20 }}
       transition={{ type: 'spring', stiffness: 300 }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
@@ -56,11 +57,6 @@ const Sidebar = () => {
             )}
           </motion.a>
         ))}
-      </div>
-
-      {/* Indicateur de page active (mobile) */}
-      <div className="md:hidden absolute right-2 top-1/2 transform -translate-y-1/2 bg-blue-600 text-white text-xs px-2 py-1 rounded">
-        {activePage}
       </div>
     </motion.div>
   );

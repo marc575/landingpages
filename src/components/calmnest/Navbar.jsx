@@ -34,7 +34,7 @@ const Navbar = () => {
           {/* Logo à gauche */}
           <div className="flex-shrink-0">
             <a href="#" className="flex items-center">
-              <img src={logo} className='rounded-xl w-12 hover:scale-105 transition-transform duration-300' alt="logo" />
+              <img src={logo} className='rounded-full border border-gray-100 w-12 hover:scale-105 transition-transform duration-300' alt="logo" />
             </a>
           </div>
 

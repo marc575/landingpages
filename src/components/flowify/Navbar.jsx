@@ -6,13 +6,13 @@ function Navbar() {
 
   return (
     <nav className="bg-white sticky top-0 z-50">
-      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-8xl mx-auto px-4 py-2 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             <img 
               src={logo} 
-              className="rounded-xl w-12 hover:scale-105 transition-transform duration-300" 
+              className="rounded-full border border-gray-100 w-12 hover:scale-105 transition-transform duration-300" 
               alt="logo" 
             />
           </div>
