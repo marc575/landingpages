@@ -13,7 +13,7 @@ function Flowify() {
         <main>
             <Hero />
             <Client />
-            {/* <Sidebar /> */}
+            <Sidebar />
         </main>
     </>
   )

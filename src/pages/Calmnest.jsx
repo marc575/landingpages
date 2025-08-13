@@ -11,7 +11,7 @@ function Calmnest() {
         </header>
         <main>
             <Hero />
-            {/* <Sidebar /> */}
+            <Sidebar />
         </main>
     </>
   )

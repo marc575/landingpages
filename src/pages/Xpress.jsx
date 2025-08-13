@@ -13,7 +13,7 @@ function Xpress() {
         <main>
             <Hero />
             <TravelBooking />
-            {/* <Sidebar /> */}
+            <Sidebar />
         </main>
     </>
   )
