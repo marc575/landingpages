@@ -62,7 +62,7 @@ const Navbar = () => {
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 md:h-20">
           {/* Logo à gauche */}
-          <div className="flex gap-4 md:gap-12 flex-shrink-0 items-center">
+          <div className="flex gap-2 md:gap-8 flex-shrink-0 items-center">
             <a href="#" className="flex items-center">
               <img src={logo} className='rounded-full border border-gray-100 w-12 hover:scale-105 transition-transform duration-300' alt="logo" />
             </a>

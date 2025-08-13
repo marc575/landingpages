@@ -39,7 +39,7 @@ const TravelBooking = () => {
   };
 
   return (
-    <section className="bg-transparent w-full absolute bottom-2 py-2 px-4 sm:px-6 lg:px-8">
+    <section className="bg-transparent w-full absolute bottom-0 md:bottom-2 py-2 px-4 sm:px-6 lg:px-8">
       <div className="max-w-8xl mx-auto">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
