@@ -6,7 +6,7 @@ function Navbar() {
 
   return (
     <nav className="bg-white sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
@@ -38,7 +38,7 @@ function Navbar() {
           <div className="hidden md:block">
             <a 
               href="#" 
-              className="relative inline-flex items-center px-6 py-2 border border-transparent text-md font-medium rounded-md text-purple-700 bg-purple-100 hover:bg-purple-200 transition-all duration-300 shadow-sm hover:shadow-md"
+              className="relative inline-flex items-center px-6 py-2 border border-transparent text-md font-medium rounded-md text-white bg-purple-700 hover:bg-purple-500 transition-all duration-300 shadow-sm hover:shadow-md"
             >
               Découvrir
               <span className="ml-2">→</span>

@@ -2,16 +2,18 @@ import React from 'react'
 import Navbar from '../components/flowify/Navbar'
 import Hero from '../components/flowify/Hero'
 import Client from '../components/flowify/Client'
+import Sidebar from '../components/Sidebar'
 
 function Flowify() {
   return (
     <>
-        <header className='container mx-auto'>
+        <header>
             <Navbar />
         </header>
-        <main className='container mx-auto'>
+        <main>
             <Hero />
             <Client />
+            <Sidebar />
         </main>
     </>
   )
