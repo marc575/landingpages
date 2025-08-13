@@ -31,12 +31,12 @@ const Sidebar = () => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="flex flex-col items-start space-y-4 p-4 bg-white bg-opacity-90 backdrop-blur-md rounded-lg shadow-xl border border-blue-100">
+      <div className="flex flex-col items-start space-y-4 p-3 bg-white bg-opacity-90 backdrop-blur-md rounded-lg shadow-xl border border-blue-100">
         {pages.map((page) => (
           <motion.a
             key={page.number}
             href={page.path}
-            className={`flex items-center justify-center w-10 h-10 rounded-full text-lg font-medium relative overflow-hidden transition-all duration-300 ${
+            className={`flex items-center justify-center w-6 h-6 rounded-full text-md font-medium relative overflow-hidden transition-all duration-300 ${
               activePage === page.number 
                 ? 'bg-blue-600 text-white' 
                 : 'bg-blue-50 text-blue-600 hover:bg-blue-100'
