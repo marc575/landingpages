@@ -13,22 +13,22 @@ const Hero = () => {
 
                 {/* Titre principal avec dégradé */}
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-700">
-                Find Your Calm <br /> <span className='italic'>Anytime</span>
+                    Find Your Calm <br /> <span className='italic'>Anytime</span>
                 </h1>
 
                 {/* Description */}
                 <p className="text-md text-gray-600 max-w-2xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam recusandae delectus esse quisquam facere. Eveniet, dolorem qui distinctio blanditiis suscipit vitae fugiat impedit earum, quia est sint et ullam exercitationem.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam recusandae delectus esse quisquam facere. Eveniet, dolorem qui distinctio blanditiis suscipit vitae fugiat impedit earum, quia est sint et ullam exercitationem.
                 </p>
 
                 {/* Boutons */}
                 <div className="flex flex-wrap gap-4 pt-6">
-                <button className="px-8 py-3 bg-gradient-to-r from-blue-600 to-blue-800 text-white font-medium rounded-lg hover:shadow-lg transition-all duration-300 hover:translate-y-[-2px]">
-                    Découvrir
-                </button>
-                <button className="px-8 py-3 bg-transparent border border-dark text-dark font-medium rounded-lg hover:bg-gray-200 transition-all duration-300 hover:translate-y-[-2px]">
-                    Voir la démo
-                </button>
+                    <button className="px-8 py-3 bg-gradient-to-r from-blue-600 to-blue-800 text-white font-medium rounded-lg hover:shadow-lg transition-all duration-300 hover:translate-y-[-2px]">
+                        Découvrir
+                    </button>
+                    <button className="px-8 py-3 bg-transparent border border-dark text-dark font-medium rounded-lg hover:bg-gray-200 transition-all duration-300 hover:translate-y-[-2px]">
+                        Voir la démo
+                    </button>
                 </div>
 
                 {/* Statistiques */}

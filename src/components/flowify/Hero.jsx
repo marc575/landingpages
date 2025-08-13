@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from '../../assets/flowify/banniere1.jpg';
+import heroImage from '../../assets/flowify/banniere4.jpg';
 import { FiTrendingUp } from 'react-icons/fi';
 import { FaStar, FaRegStar, FaStarHalfAlt } from 'react-icons/fa';
 
@@ -96,9 +96,9 @@ const Hero = () => {
               <img
                 src={heroImage}
                 alt="Hero illustration"
-                className="w-full max-h-[50vh] lg:max-h-[65vh]  object-contain transition-all duration-500 hover:scale-105"
+                className="w-full max-h-[50vh] lg:max-h-[65vh] object-contain transition-all duration-500 hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-purple-900/20 to-purple-600/10"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-purple-400/20 to-purple-100/10"></div>
             </div>
           </div>
         </div>

@@ -12,6 +12,7 @@ const Sidebar = () => {
     { number: 1, path: '/', name: 'Calmnest' },
     { number: 2, path: '/flowify', name: 'Flowify' },
     { number: 3, path: '/xpress', name: 'Xpress' },
+    { number: 4, path: '/flame', name: 'Flame' },
   ];
 
   // Détection de la page active
