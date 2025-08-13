@@ -11,7 +11,7 @@ function Flame() {
         </header>
         <main>
             <Hero />
-            <Sidebar />
+            {/* <Sidebar /> */}
         </main>
     </>
   )
