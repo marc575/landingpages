@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from '../../assets/xpress/banniere1.jpg';
+import heroImage from '../../assets/xpress/banniere2.webp';
 
 const Hero = () => {
 
@@ -22,10 +22,10 @@ const Hero = () => {
 
                 {/* Boutons */}
                 <div className="flex flex-wrap gap-4 pt-2">
-                    <button className="px-8 py-3 bg-gradient-to-r from-orange-400 to-orange-600 text-white font-medium rounded-full hover:shadow-lg transition-all duration-300 hover:translate-y-[-2px]">
+                    <button className="px-4 py-2 bg-gradient-to-r from-orange-400 to-orange-600 text-white font-medium rounded-full hover:shadow-lg transition-all duration-300 hover:translate-y-[-2px]">
                         Découvrir
                     </button>
-                    <button className="px-8 py-3 bg-transparent text-dark font-medium rounded-full hover:bg-gray-200 transition-all duration-300 hover:translate-y-[-2px] flex items-center gap-3">
+                    <button className="px-4 py-2 bg-gray-50 text-dark font-medium rounded-full hover:bg-gray-200 transition-all duration-300 hover:translate-y-[-2px] flex items-center gap-3">
                         {/* Avatar client */}
                         <div className="relative">
                             <img 

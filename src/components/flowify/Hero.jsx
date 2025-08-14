@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from '../../assets/flowify/banniere4.jpg';
+import heroImage from '../../assets/flowify/banniere6.png';
 import { FiTrendingUp } from 'react-icons/fi';
 import { FaStar, FaRegStar, FaStarHalfAlt } from 'react-icons/fa';
 
@@ -59,10 +59,10 @@ const Hero = () => {
 
             {/* Boutons */}
             <div className="flex flex-wrap gap-4 pt-2">
-              <button className="px-8 py-3 bg-gradient-to-r from-purple-600 to-purple-800 text-white font-medium rounded-lg hover:shadow-lg transition-all duration-300 hover:translate-y-[-2px]">
+              <button className="px-4 py-2 bg-gradient-to-r from-purple-600 to-purple-800 text-white font-medium rounded-lg hover:shadow-lg transition-all duration-300 hover:translate-y-[-2px]">
                 Découvrir
               </button>
-              <button className="px-8 py-3 bg-gray-100 text-purple-700 font-medium rounded-lg hover:bg-gray-200 transition-all duration-300 hover:translate-y-[-2px]">
+              <button className="px-4 py-2 bg-gray-100 text-purple-700 font-medium rounded-lg hover:bg-gray-200 transition-all duration-300 hover:translate-y-[-2px]">
                 Voir la démo
               </button>
             </div>
@@ -96,9 +96,9 @@ const Hero = () => {
               <img
                 src={heroImage}
                 alt="Hero illustration"
-                className="w-full max-h-[50vh] lg:max-h-[65vh] object-contain transition-all duration-500 hover:scale-105"
+                className="w-full max-h-[50vh] lg:max-h-[65vh] object-cover transition-all duration-500 hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-b from-purple-400/20 to-purple-100/10"></div>
+              <div className="absolute inset-0 bg-gradient-to-b from-purple-100/20 to-purple-100/10"></div>
             </div>
           </div>
         </div>

@@ -38,7 +38,7 @@ function Navbar() {
           <div className="hidden md:block">
             <a 
               href="#" 
-              className="relative inline-flex items-center px-6 py-2 border border-transparent text-md font-medium rounded-md text-white bg-purple-700 hover:bg-purple-500 transition-all duration-300 shadow-sm hover:shadow-md"
+              className="relative inline-flex items-center px-4 py-2 border border-transparent text-md font-medium rounded-md text-white bg-purple-700 hover:bg-purple-500 transition-all duration-300 shadow-sm hover:shadow-md"
             >
               Découvrir
               <span className="ml-2">→</span>
@@ -88,7 +88,7 @@ function Navbar() {
           ))}
           <a
             href="#"
-            className="block w-full px-3 py-2 mt-2 rounded-md text-lg font-medium text-purple-700 bg-purple-100 hover:bg-purple-200 transition-colors duration-300 text-center"
+            className="block w-full px-4 py-2 mt-2 rounded-md text-lg font-medium text-purple-700 bg-purple-100 hover:bg-purple-200 transition-colors duration-300 text-center"
           >
             Découvrir
           </a>

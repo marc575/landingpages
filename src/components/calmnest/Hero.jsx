@@ -23,10 +23,10 @@ const Hero = () => {
 
                 {/* Boutons */}
                 <div className="flex flex-wrap gap-4 pt-6">
-                    <button className="px-8 py-3 bg-gradient-to-r from-blue-600 to-blue-800 text-white font-medium rounded-lg hover:shadow-lg transition-all duration-300 hover:translate-y-[-2px]">
+                    <button className="px-4 py-2 bg-gradient-to-r from-blue-600 to-blue-800 text-white font-medium rounded-lg hover:shadow-lg transition-all duration-300 hover:translate-y-[-2px]">
                         Découvrir
                     </button>
-                    <button className="px-8 py-3 bg-transparent border border-dark text-dark font-medium rounded-lg hover:bg-gray-200 transition-all duration-300 hover:translate-y-[-2px]">
+                    <button className="px-4 py-2 bg-transparent border border-dark text-dark font-medium rounded-lg hover:bg-gray-200 transition-all duration-300 hover:translate-y-[-2px]">
                         Voir la démo
                     </button>
                 </div>

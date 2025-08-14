@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from '../../assets/finory/banniere1.jpg';
+import heroImage from '../../assets/finory/banniere3.png';
 import { motion } from "framer-motion"
 import { 
   SiTesla,
@@ -30,7 +30,7 @@ const Hero = () => {
   return (
     <section className="bg-white relative">
         <div className="w-full mx-auto">
-            <div className="flex flex-col lg:flex-row items-center gap-12">
+            <div className="flex flex-col lg:flex-row items-center gap-6 md:gap-2">
             {/* Texte et CTA */}
             <div className="lg:w-1/2 space-y-2 animate-fadeInUp pb-32 md:pb-16 lg:pl-10 px-4 sm:px-0">
 

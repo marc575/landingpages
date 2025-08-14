@@ -55,7 +55,7 @@ const Navbar = () => {
                 {/* Bouton CTA à droite */}
                 <a
                     href="#contact"
-                    className={`inline-flex items-center px-5 py-3 border border-transparent text-sm font-medium rounded-md transition-all duration-300 ${scrolled ? 'bg-blue-600 text-white hover:bg-blue-700' : 'bg-blue-600 text-white hover:bg-blue-700'} shadow-sm hover:shadow-md`}
+                    className={`inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md transition-all duration-300 ${scrolled ? 'bg-blue-600 text-white hover:bg-blue-700' : 'bg-blue-600 text-white hover:bg-blue-700'} shadow-sm hover:shadow-md`}
                 >
                     Contactez-nous
                     <FaArrowRight className="ml-2" />
@@ -93,7 +93,7 @@ const Navbar = () => {
           ))}
           <a
             href="#contact"
-            className="block w-full px-3 py-3 mt-2 rounded-md text-base font-medium text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-300 text-center"
+            className="block w-full px-4 py-2 mt-2 rounded-md text-base font-medium text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-300 text-center"
             onClick={() => setIsMenuOpen(false)}
           >
             Contactez-nous

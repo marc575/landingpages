@@ -122,7 +122,7 @@ const Navbar = () => {
                 {/* Bouton CTA à droite */}
                 <a
                     href="#contact"
-                    className={`inline-flex items-center px-5 py-3 border border-transparent text-sm font-medium rounded-full transition-all duration-300 ${scrolled ? 'bg-orange-400 text-white hover:bg-orange-600' : 'bg-orange-400 text-white hover:bg-orange-600'} shadow-sm hover:shadow-md`}
+                    className={`inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-full transition-all duration-300 ${scrolled ? 'bg-orange-400 text-white hover:bg-orange-600' : 'bg-orange-400 text-white hover:bg-orange-600'} shadow-sm hover:shadow-md`}
                 >
                     Contactez-nous
                     <FaArrowRight className="ml-2" />
@@ -152,7 +152,7 @@ const Navbar = () => {
             <a
               key={item.name}
               href={item.href}
-              className="block px-3 py-3 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100 hover:text-orange-600 transition-colors duration-300"
+              className="block px-4 py-2 rounded-md text-base font-medium text-gray-800 hover:bg-gray-100 hover:text-orange-600 transition-colors duration-300"
               onClick={() => setIsMenuOpen(false)}
             >
               {item.name}
@@ -160,7 +160,7 @@ const Navbar = () => {
           ))}
           <a
             href="#contact"
-            className="block w-full px-3 py-3 mt-2 rounded-md text-base font-medium text-white bg-orange-600 hover:bg-orange-700 transition-colors duration-300 text-center"
+            className="block w-full px-4 py-2 mt-2 rounded-md text-base font-medium text-white bg-orange-600 hover:bg-orange-700 transition-colors duration-300 text-center"
             onClick={() => setIsMenuOpen(false)}
           >
             Contactez-nous

@@ -95,7 +95,7 @@ const Navbar = () => {
           ))}
           <a
             href="#contact"
-            className="block w-full px-3 py-2 mt-2 rounded-md text-base font-medium text-white bg-gray-900 hover:bg-purple-700 transition-colors duration-300 text-center"
+            className="block w-full px-4 py-2 mt-2 rounded-md text-base font-medium text-white bg-gray-900 hover:bg-purple-700 transition-colors duration-300 text-center"
             onClick={() => setIsMenuOpen(false)}
           >
             Sign In
