@@ -81,9 +81,9 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="lg:w-1/2 flex justify-center lg:justify-end mt-8 lg:mt-0"
           >
-            <h2 className="text-4xl md:text-5xl lg:text-6xl md:text-end font-bold text-white stroke-text">
+            <h1 className="text-4xl md:text-5xl lg:text-7xl md:text-end font-bold text-white stroke-text">
               FROM FIRE AND HEAT TO HOME <span className='italic'>GROUNDS</span>
-            </h2>
+            </h1>
           </motion.div>
         </div>
 
