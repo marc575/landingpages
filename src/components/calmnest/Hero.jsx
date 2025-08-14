@@ -32,7 +32,7 @@ const Hero = () => {
                 </div>
 
                 {/* Statistiques */}
-                <div className='flex flex-wrap gap-6 pt-6'>
+                <div className='flex flex-wrap gap-6 pt-6 pb-6 md:pb-0'>
                     <div className='space-y-2 animate-fadeInUp'>
                         <h3 className='text-2xl font-bold'>€500B+</h3>
                         <p className="text-md text-gray-600 max-w-2xl">Lorem ipsum dolor</p>

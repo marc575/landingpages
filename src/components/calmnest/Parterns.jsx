@@ -68,7 +68,7 @@ const Partners = () => {
               {partners.map((partner, index) => (
                 <motion.div
                   key={index}
-                  className="h-8 w-16 flex items-center justify-center text-gray-400 hover:text-current transition-all duration-300"
+                  className="h-8 w-16 flex items-center justify-center text-gray-200 md:text-gray-400 hover:text-current transition-all duration-300"
                   whileHover={{ scale: 1.1 }}
                   variants={item}
                 >

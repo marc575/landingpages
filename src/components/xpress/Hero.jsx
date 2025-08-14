@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="bg-white relative">
         <div className="w-full mx-auto">
-            <div className="flex flex-col lg:flex-row items-center gap-12">
+            <div className="flex flex-col lg:flex-row items-center pb-6 md:pb-0 gap-12">
             {/* Texte et CTA */}
             <div className="lg:w-1/2 space-y-2 animate-fadeInUp lg:pl-10 px-4 sm:px-0">
 

@@ -40,7 +40,7 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           {/* Texte et CTA */}
-          <div className="lg:w-1/2 space-y-2 animate-fadeInUp">
+          <div className="lg:w-1/2 space-y-6 md:space-y-2 animate-fadeInUp">
             {/* Sous-titre avec icône */}
             <div className="inline-flex items-center bg-purple-100 rounded-full px-4 py-2">
               <FiTrendingUp className="text-purple-700 mr-2" />
@@ -48,7 +48,7 @@ const Hero = () => {
             </div>
 
             {/* Titre principal avec dégradé */}
-            <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-purple-900">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-purple-900">
               Transformez votre business avec notre <span className='italic font-semibold'>solution innovante</span>
             </h1>
 
@@ -92,13 +92,13 @@ const Hero = () => {
 
           {/* Image */}
           <div className="lg:w-1/2 animate-fadeIn order-first lg:order-last">
-            <div className="relative rounded-xl overflow-hidden shadow-sm">
+            <div className="relative rounded-xl overflow-hidden shadow-xs">
               <img
                 src={heroImage}
                 alt="Hero illustration"
                 className="w-full max-h-[50vh] lg:max-h-[65vh] object-contain transition-all duration-500 hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-purple-400/20 to-purple-100/10"></div>
+              <div className="absolute inset-0 bg-gradient-to-b from-purple-400/20 to-purple-100/10"></div>
             </div>
           </div>
         </div>

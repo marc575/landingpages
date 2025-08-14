@@ -30,7 +30,7 @@ const Hero = () => {
       </div>
 
       {/* Contenu principal */}
-      <div className="relative z-10 px-4 sm:px-6 lg:px-8 py-24 flex flex-col justify-between max-h-screen">
+      <div className="relative z-10 px-4 sm:px-6 lg:px-8 lg:py-24 flex flex-col justify-between max-h-screen">
         {/* Première sous-section */}
         <div className="flex flex-col lg:flex-row items-start gap-6 mb-8 lg:mb-18">
           {/* Partie gauche - Titre, avatars et texte */}
@@ -41,7 +41,7 @@ const Hero = () => {
             className="lg:w-1/2 space-y-2 text-white"
           >
             
-            <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold leading-tight">
+            <h1 className="text-3xl lg:text-4xl font-bold leading-tight">
               MODEL <span className="text-orange-300">'2025</span>
             </h1>
             
@@ -79,9 +79,9 @@ const Hero = () => {
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="lg:w-1/2 flex justify-center lg:justify-end"
+            className="lg:w-1/2 flex justify-center lg:justify-end mt-8 lg:mt-0"
           >
-            <h2 className="text-4xl md:text-5xl lg:text-7xl md:text-end font-bold text-white stroke-text">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl md:text-end font-bold text-white stroke-text">
               FROM FIRE AND HEAT TO HOME <span className='italic'>GROUNDS</span>
             </h2>
           </motion.div>
@@ -94,13 +94,13 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="lg:w-1/2 space-y-6 text-white"
+            className="lg:w-1/2 space-y-10 lg:space-y-6 text-white"
           >
             <p className="text-lg md:text-xl max-w-lg opacity-90 text-white/90">
               Prêt à vivre l'aventure de votre vie ? Notre équipe d'experts est là pour créer un voyage sur mesure qui correspond à vos rêves.
             </p>
             
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-wrap gap-6 lg:gap-4">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
