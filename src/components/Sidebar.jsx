@@ -15,6 +15,7 @@ const Sidebar = () => {
     { number: 4, path: '/flame', name: 'Flame' },
     { number: 5, path: '/finory', name: 'Finory' },
     { number: 6, path: '/ibte', name: 'Ibte' },
+    { number: 7, path: '/therapy', name: 'Therapy' },
   ];
 
   // Détection de la page active

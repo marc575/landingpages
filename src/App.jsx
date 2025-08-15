@@ -5,6 +5,7 @@ import Xpress from './pages/Xpress'
 import Flame from './pages/Flame'
 import Finory from './pages/Finory'
 import Ibte from './pages/Ibte'
+import Therapy from './pages/Therapy'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/flame" element={<Flame/>} /> 
         <Route path="/finory" element={<Finory/>} /> 
         <Route path="/ibte" element={<Ibte/>} /> 
+        <Route path="/therapy" element={<Therapy/>} /> 
       </Routes> 
     </Router> 
   )

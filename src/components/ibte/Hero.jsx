@@ -100,6 +100,7 @@ const Hero = () => {
                   loop
                   playsInline
                   preload="auto"
+                  autoplay
                 />
                 <div className="absolute inset-0 flex pt-[25%] md:pt-[15%] justify-center bg-black/20">
                   <div className="w-14 h-14 bg-purple-600 rounded-full flex items-center justify-center">
@@ -143,7 +144,7 @@ const Hero = () => {
                 <video
                   src={videoUrl}
                   className="absolute top-0 left-0 w-full h-full object-contain"
-                  autoPlay={false}
+                  autoPlay={true}
                   playsInline
                   ref={videoRef}
                   controls={false}
