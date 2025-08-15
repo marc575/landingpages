@@ -44,7 +44,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative h-screen my-auto overflow-hidden bg-gradient-to-br from-white to-purple-200 py-28 px-4 sm:px-6 lg:px-8">
+    <section className="relative h-screen my-auto overflow-hidden bg-gradient-to-br from-white to-purple-100 py-28 px-4 sm:px-6 lg:px-8">
       {/* Icônes flottantes */}
       {floatingIcons.map((item, index) => (
         <motion.div
@@ -100,7 +100,6 @@ const Hero = () => {
                   loop
                   playsInline
                   preload="auto"
-                  autoplay
                 />
                 <div className="absolute inset-0 flex pt-[25%] md:pt-[15%] justify-center bg-black/20">
                   <div className="w-14 h-14 bg-purple-600 rounded-full flex items-center justify-center">

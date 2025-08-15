@@ -120,7 +120,6 @@ const Hero = () => {
                   src={videoUrl}
                   className="inset-0 w-full h-full object-cover"
                   poster={HeroImage4}
-                  autoPlay
                   muted
                   loop
                   preload="metadata"
@@ -164,7 +163,7 @@ const Hero = () => {
                 <motion.img
                   src={HeroImage3}
                   alt="Séance de thérapie"
-                  className="w-full h-[250px] rounded-lg shadow-md object-cover aspect-square"
+                  className="w-full h-[270px] rounded-lg shadow-md object-cover aspect-square"
                   whileHover={{ scale: 1.03 }}
                 />
                 
