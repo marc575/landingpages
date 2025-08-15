@@ -4,6 +4,7 @@ import Calmnest from './pages/Calmnest'
 import Xpress from './pages/Xpress'
 import Flame from './pages/Flame'
 import Finory from './pages/Finory'
+import Ibte from './pages/Ibte'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Route path="/flowify" element={<Flowify/>} /> 
         <Route path="/flame" element={<Flame/>} /> 
         <Route path="/finory" element={<Finory/>} /> 
+        <Route path="/ibte" element={<Ibte/>} /> 
       </Routes> 
     </Router> 
   )
