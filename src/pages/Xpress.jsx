@@ -7,6 +7,9 @@ import Navbar from '../components/xpress/Navbar'
 function Xpress() {
   return (
     <>
+        <helmet>
+          <title>Xpress | Tatchou Marc</title>
+        </helmet>
         <header>
             <Navbar />
         </header>

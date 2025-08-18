@@ -6,6 +6,9 @@ import Navbar from '../components/ibte/Navbar'
 function Ibte() {
   return (
     <>
+        <helmet>
+          <title>Ibte | Tatchou Marc</title>
+        </helmet>
         <header>
             <Navbar />
         </header>

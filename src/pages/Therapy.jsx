@@ -6,6 +6,9 @@ import Navbar from '../components/therapy/Navbar'
 function Therapy() {
   return (
     <>
+        <helmet>
+          <title>Therapy | Tatchou Marc</title>
+        </helmet>
         <header>
             <Navbar />
         </header>

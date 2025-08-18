@@ -7,6 +7,9 @@ import Sidebar from '../components/Sidebar'
 function Flowify() {
   return (
     <>
+        <helmet>
+          <title>Flowify | Tatchou Marc</title>
+        </helmet>
         <header>
             <Navbar />
         </header>

@@ -6,6 +6,9 @@ import Navbar from '../components/flame/Navbar'
 function Flame() {
   return (
     <>
+        <helmet>
+          <title>Flame | Tatchou Marc</title>
+        </helmet>
         <header>
             <Navbar />
         </header>

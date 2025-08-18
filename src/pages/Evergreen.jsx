@@ -7,6 +7,9 @@ import Navbar from '../components/evergreen/Navbar'
 function Evergreen() {
   return (
     <>
+        <helmet>
+          <title>EverGreen | Tatchou Marc</title>
+        </helmet>
         <header>
             <Navbar />
         </header>

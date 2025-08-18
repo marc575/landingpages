@@ -158,7 +158,7 @@ const Hero = () => {
             </div>
 
             {/* Bouton de recherche */}
-            <button className="w-full md:w-auto px-4 bg-black hover:bg-gray-900 text-white font-medium rounded-md shadow-md flex items-center justify-center gap-2 transition-all">
+            <button className="w-full md:w-auto px-4 py-2 bg-black hover:bg-gray-900 text-white font-medium rounded-md shadow-md flex items-center justify-center gap-2 transition-all">
                 <FiSearch /> Rechercher
             </button>
           </div>

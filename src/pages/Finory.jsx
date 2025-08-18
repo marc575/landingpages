@@ -6,6 +6,9 @@ import Navbar from '../components/finory/Navbar'
 function Finory() {
   return (
     <>
+        <helmet>
+          <title>Finory | Tatchou Marc</title>
+        </helmet>
         <header>
             <Navbar />
         </header>
