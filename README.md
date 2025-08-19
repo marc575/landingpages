@@ -1,4 +1,33 @@
-# File Tree: LandingPage
+
+## CalmNest
+![Demo](https://github.com/marc575/landingpages/blob/main/public/calmnest.png)
+
+## Podcast
+![Demo](https://github.com/marc575/landingpages/blob/main/public/podcast.png)
+
+## Evergreen
+![Demo](https://github.com/marc575/landingpages/blob/main/public/evergreen.png)
+
+## Therapy
+![Demo](https://github.com/marc575/landingpages/blob/main/public/therapy.png)
+
+## Ibte
+![Demo](https://github.com/marc575/landingpages/blob/main/public/ibte.png)
+
+## Finory
+![Demo](https://github.com/marc575/landingpages/blob/main/public/finory.png)
+
+## Xpress
+![Demo](https://github.com/marc575/landingpages/blob/main/public/xpress.png)
+
+## Flowify
+![Demo](https://github.com/marc575/landingpages/blob/main/public/flowify.png)
+
+## Flame
+![Demo](https://github.com/marc575/landingpages/blob/main/public/flame.png)
+
+
+# Structure du projet
 
 ```
 ├── 📁 .git/ 🚫 (auto-hidden)
@@ -102,30 +131,3 @@
 ├── 📄 vercel.json
 └── 📄 vite.config.js
 ```
-
-## CalmNest
-![Demo](https://github.com/marc575/landingpages/blob/main/public/calmnest.png)
-
-## Podcast
-![Demo](https://github.com/marc575/landingpages/blob/main/public/podcast.png)
-
-## Evergreen
-![Demo](https://github.com/marc575/landingpages/blob/main/public/evergreen.png)
-
-## Therapy
-![Demo](https://github.com/marc575/landingpages/blob/main/public/therapy.png)
-
-## Ibte
-![Demo](https://github.com/marc575/landingpages/blob/main/public/ibte.png)
-
-## Finory
-![Demo](https://github.com/marc575/landingpages/blob/main/public/finory.png)
-
-## Xpress
-![Demo](https://github.com/marc575/landingpages/blob/main/public/xpress.png)
-
-## Flowify
-![Demo](https://github.com/marc575/landingpages/blob/main/public/flowify.png)
-
-## Flame
-![Demo](https://github.com/marc575/landingpages/blob/main/public/flame.png)
