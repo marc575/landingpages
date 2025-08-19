@@ -1,12 +1,131 @@
-# React + Vite
+# File Tree: LandingPage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```
+├── 📁 .git/ 🚫 (auto-hidden)
+├── 📁 node_modules/ 🚫 (auto-hidden)
+├── 📁 public/
+│   └── 🖼️ logo.png
+├── 📁 src/
+│   ├── 📁 assets/
+│   │   ├── 📁 calmnest/
+│   │   │   ├── 🖼️ banniere1.jpg
+│   │   │   ├── 🖼️ banniere2.webp
+│   │   │   └── 🖼️ banniere3.jpg
+│   │   ├── 📁 evergreen/
+│   │   │   ├── 🖼️ banniere1.jpg
+│   │   │   └── 🖼️ banniere2.jpg
+│   │   ├── 📁 finory/
+│   │   │   ├── 🖼️ banniere1.jpg
+│   │   │   ├── 🖼️ banniere2.jpg
+│   │   │   ├── 🖼️ banniere3.png
+│   │   │   ├── 🖼️ banniere3.webp
+│   │   │   └── 🖼️ banniere4.jpg
+│   │   ├── 📁 flame/
+│   │   │   ├── 🖼️ banniere1.jpg
+│   │   │   ├── 🖼️ banniere2.jpg
+│   │   │   └── 🖼️ banniere3.jpg
+│   │   ├── 📁 flowify/
+│   │   │   ├── 🖼️ banniere1.jpg
+│   │   │   ├── 🖼️ banniere2.jpg
+│   │   │   ├── 🖼️ banniere3.jpg
+│   │   │   ├── 🖼️ banniere4.jpg
+│   │   │   ├── 🖼️ banniere5.webp
+│   │   │   └── 🖼️ banniere6.png
+│   │   ├── 📁 ibte/
+│   │   ├── 📁 podcast/
+│   │   │   ├── 🖼️ banniere1.jpg
+│   │   │   └── 🖼️ banniere2.jpg
+│   │   ├── 📁 therapy/
+│   │   │   ├── 🖼️ banniere1.jpg
+│   │   │   ├── 🖼️ banniere2.jpg
+│   │   │   ├── 🖼️ banniere3.jpg
+│   │   │   └── 🖼️ banniere4.jpg
+│   │   ├── 📁 xpress/
+│   │   │   ├── 🖼️ banniere1.jpg
+│   │   │   └── 🖼️ banniere2.webp
+│   │   └── 🖼️ logo.png
+│   ├── 📁 components/
+│   │   ├── 📁 calmnest/
+│   │   │   ├── 📄 Hero.jsx
+│   │   │   ├── 📄 Navbar.jsx
+│   │   │   └── 📄 Parterns.jsx
+│   │   ├── 📁 evergreen/
+│   │   │   ├── 📄 Hero.jsx
+│   │   │   └── 📄 Navbar.jsx
+│   │   ├── 📁 finory/
+│   │   │   ├── 📄 Hero.jsx
+│   │   │   ├── 📄 Navbar.jsx
+│   │   │   └── 📄 Video.jsx
+│   │   ├── 📁 flame/
+│   │   │   ├── 📄 Hero.jsx
+│   │   │   └── 📄 Navbar.jsx
+│   │   ├── 📁 flowify/
+│   │   │   ├── 📄 Client.jsx
+│   │   │   ├── 📄 Hero.jsx
+│   │   │   └── 📄 Navbar.jsx
+│   │   ├── 📁 ibte/
+│   │   │   ├── 📄 Hero.jsx
+│   │   │   └── 📄 Navbar.jsx
+│   │   ├── 📁 podcast/
+│   │   │   ├── 📄 Hero.jsx
+│   │   │   ├── 📄 LivePodcastPlayer.jsx
+│   │   │   ├── 📄 Navbar.jsx
+│   │   │   └── 📄 PodcastPlayer.jsx
+│   │   ├── 📁 therapy/
+│   │   │   ├── 📄 Hero.jsx
+│   │   │   └── 📄 Navbar.jsx
+│   │   ├── 📁 xpress/
+│   │   │   ├── 📄 Hero.jsx
+│   │   │   ├── 📄 Navbar.jsx
+│   │   │   └── 📄 TravelBooking.jsx
+│   │   ├── 📄 Popup.jsx
+│   │   └── 📄 Sidebar.jsx
+│   ├── 📁 pages/
+│   │   ├── 📄 Calmnest.jsx
+│   │   ├── 📄 Evergreen.jsx
+│   │   ├── 📄 Finory.jsx
+│   │   ├── 📄 Flame.jsx
+│   │   ├── 📄 Flowify.jsx
+│   │   ├── 📄 Ibte.jsx
+│   │   ├── 📄 Podcast.jsx
+│   │   ├── 📄 Therapy.jsx
+│   │   └── 📄 Xpress.jsx
+│   ├── 📄 App.jsx
+│   ├── 🎨 index.css
+│   └── 📄 main.jsx
+├── 🚫 .gitignore
+├── 📖 README.md
+├── 📄 eslint.config.js
+├── 🌐 index.html
+├── 📄 package-lock.json
+├── 📄 package.json
+├── 📄 vercel.json
+└── 📄 vite.config.js
+```
 
-Currently, two official plugins are available:
+## CalmNest
+![Demo](https://github.com/marc575/landingpages/blob/main/public/calmnest.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Podcast
+![Demo](https://github.com/marc575/landingpages/blob/main/public/podcast.png)
 
-## Expanding the ESLint configuration
+## Evergreen
+![Demo](https://github.com/marc575/landingpages/blob/main/public/evergreen.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Therapy
+![Demo](https://github.com/marc575/landingpages/blob/main/public/therapy.png)
+
+## Ibte
+![Demo](https://github.com/marc575/landingpages/blob/main/public/ibte.png)
+
+## Finory
+![Demo](https://github.com/marc575/landingpages/blob/main/public/finory.png)
+
+## Xpress
+![Demo](https://github.com/marc575/landingpages/blob/main/public/xpress.png)
+
+## Flowify
+![Demo](https://github.com/marc575/landingpages/blob/main/public/flowify.png)
+
+## Flame
+![Demo](https://github.com/marc575/landingpages/blob/main/public/flame.png)
