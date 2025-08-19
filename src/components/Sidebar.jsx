@@ -30,8 +30,8 @@ const Sidebar = () => {
   return (
     <motion.div 
       className="fixed right-0 top-1/2 transform -translate-y-1/2 h-auto z-50"
-      initial={{ x: -40 }}
-      animate={{ x: isHovered ? 0 : -20 }}
+      initial={{ x: -20 }}
+      animate={{ x: isHovered ? 0 : -10 }}
       transition={{ type: 'spring', stiffness: 300 }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
