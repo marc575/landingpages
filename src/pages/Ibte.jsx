@@ -8,14 +8,14 @@ function Ibte() {
   const [isInactive, setIsInactive] = useState(false);
   
   useEffect(() => {
-    let timer = setTimeout(() => { setIsInactive(true) }, 10000);
+    let timer = setTimeout(() => { setIsInactive(true) }, 60000);
 
     const resetTime = () => {
       setIsInactive(false);
       clearTimeout(timer);
       timer = setTimeout(() => {
         setIsInactive(true)
-      }, 10000);
+      }, 60000);
     }
 
     window.addEventListener("mousemove", resetTime);

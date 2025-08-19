@@ -103,7 +103,7 @@ const Popup = ({ show, onClose }) => {
                   transition: { delay: 0.5 }
                 }}
               >
-                Nous avons constater que vous êtes inactif depuis plus de 10 secondes.
+                Nous avons constater que vous êtes inactif depuis plus de 1 minute.
               </motion.p>
 
               <motion.div
