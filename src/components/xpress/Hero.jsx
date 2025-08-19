@@ -11,7 +11,7 @@ const Hero = () => {
             <div className="lg:w-1/2 space-y-2 animate-fadeInUp lg:pl-10 px-4 sm:px-0">
 
                 {/* Titre principal avec dégradé */}
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-700">
+                <h1 className="text-4xl lg:text-5xl font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-700">
                     Escape Reality and Step into Overpriced Mediocre <span className='text-red-700'>Destination</span>
                 </h1>
 

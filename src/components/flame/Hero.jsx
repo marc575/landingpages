@@ -32,18 +32,18 @@ const Hero = () => {
       {/* Contenu principal */}
       <div className="relative z-10 px-4 sm:px-6 lg:px-8 lg:py-24 flex flex-col justify-between max-h-screen">
         {/* Première sous-section */}
-        <div className="flex flex-col lg:flex-row items-start gap-6 mb-8 lg:mb-18">
+        <div className="flex flex-col lg:flex-row items-start gap-0 mb-42 md:mb-32">
           {/* Partie gauche - Titre, avatars et texte */}
           <motion.div 
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="lg:w-1/2 space-y-2 text-white"
+            className="lg:w-1/2 text-white"
           >
             
-            <h1 className="text-3xl lg:text-4xl font-bold leading-tight">
+            <h2 className="text-3xl lg:text-4xl font-bold leading-tight">
               MODEL <span className="text-orange-300">'2025</span>
-            </h1>
+            </h2>
             
             <div className="flex items-center pt-4">
               <div className="flex -space-x-2">
@@ -81,7 +81,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="lg:w-1/2 flex justify-center lg:justify-end mt-8 lg:mt-0"
           >
-            <h1 className="text-4xl md:text-5xl lg:text-7xl md:text-end font-bold text-white stroke-text">
+            <h1 className="text-5xl lg:text-7xl md:text-end font-bold text-white stroke-text">
               FROM FIRE AND HEAT TO HOME <span className='italic'>GROUNDS</span>
             </h1>
           </motion.div>
@@ -96,7 +96,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="lg:w-1/2 space-y-10 lg:space-y-6 text-white"
           >
-            <p className="text-lg md:text-xl max-w-lg opacity-90 text-white/90">
+            <p className="text-lg max-w-lg opacity-90 text-white/90">
               Prêt à vivre l'aventure de votre vie ? Notre équipe d'experts est là pour créer un voyage sur mesure qui correspond à vos rêves.
             </p>
             
@@ -106,7 +106,7 @@ const Hero = () => {
                 whileTap={{ scale: 0.95 }}
                 className="px-6 py-3 bg-white text-gray-900 font-medium rounded-lg shadow-md flex items-center gap-2"
               >
-                Commencer maintenant <FiArrowRight />
+                Boutique <FiArrowRight />
               </motion.button>
               
               <motion.button
@@ -114,7 +114,7 @@ const Hero = () => {
                 whileTap={{ scale: 0.95 }}
                 className="px-6 py-3 bg-transparent text-white border border-white/50 font-medium rounded-lg hover:bg-white/10 transition-all flex items-center gap-2"
               >
-                Voir les destinations
+                Contactez-nous
               </motion.button>
             </div>
           </motion.div>
@@ -134,7 +134,7 @@ const Hero = () => {
                 <img
                   src={HeroImage2}
                   alt="Voyageur"
-                  className="h-48 w-46 object-cover lg:ml-86 rounded-xl transition-all duration-500 hover:scale-105"
+                  className="h-32 w-32 object-cover lg:ml-86 rounded-xl transition-all duration-500 hover:scale-105"
                 />
               </div>
             </div>

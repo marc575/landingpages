@@ -51,7 +51,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative lg:h-screen overflow-hidden bg-gradient-to-tl from-gray-50 to-white pt-24 pb-8 px-4 sm:px-6 lg:px-8">
+    <section className="relative lg:h-screen overflow-hidden bg-gradient-to-tl from-green-50 to-white pt-24 pb-8 px-4 sm:px-6 lg:px-8">
       {/* Première sous-section : Titre + Description + Boutons */}
       <div className="max-w-8xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center gap-6 md:gap-12 mb-8">

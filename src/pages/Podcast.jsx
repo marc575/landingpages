@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react'
-import Hero from '../components/therapy/Hero'
+import Hero from '../components/podcast/Hero'
 import Sidebar from '../components/Sidebar'
-import Navbar from '../components/therapy/Navbar'
+import Navbar from '../components/podcast/Navbar'
 import Popup from '../components/Popup';
 
-function Therapy() {
+
+function Podcast() {
   const [isInactive, setIsInactive] = useState(false);
   
   useEffect(() => {
@@ -31,7 +32,7 @@ function Therapy() {
   return (
     <>
         <helmet>
-          <title>Therapy | Tatchou Marc</title>
+          <title>Podcast | Tatchou Marc</title>
         </helmet>
         <header>
             <Navbar />
@@ -46,4 +47,4 @@ function Therapy() {
   )
 }
 
-export default Therapy
+export default Podcast

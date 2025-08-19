@@ -12,11 +12,11 @@ const Hero = () => {
 
   const floatingIcons = [
     { icon: <FiBookOpen className="text-purple-600" />, position: 'top-1/4 left-1/8' },
-    { icon: <FiAward className="text-purple-600" />, position: 'bottom-1/4 right-1/8' },
-    { icon: <FiUserCheck className="text-purple-600" />, position: 'top-1/8 right-1/2' },
-    { icon: <FiBookOpen className="text-purple-600" />, position: 'bottom-1/4 right-1/4' },
+    { icon: <FiAward className="text-purple-600" />, position: 'bottom-1/8 md:bottom-1/4 right-1/8' },
+    { icon: <FiUserCheck className="text-purple-600" />, position: 'top-1/16 md:top-1/8 right-1/2' },
+    { icon: <FiBookOpen className="text-purple-600" />, position: 'bottom-1 md:bottom-1/4 right-1/2 md:right-1/4' },
     { icon: <FiAward className="text-purple-600" />, position: 'top-1/4 left-3/4' },
-    { icon: <FiUserCheck className="text-purple-600" />, position: 'bottom-1/4 left-1/8' },
+    { icon: <FiUserCheck className="text-purple-600" />, position: 'bottom-1/8 md:bottom-1/4 left-1/8' },
   ];
 
   const toggleVideo = () => {
@@ -44,7 +44,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative h-screen my-auto overflow-hidden bg-gradient-to-br from-white to-purple-100 py-28 px-4 sm:px-6 lg:px-8">
+    <section className="relative h-auto md:h-screen my-auto overflow-hidden bg-gradient-to-br from-white to-purple-100 py-28 px-4 sm:px-6 lg:px-8">
       {/* Icônes flottantes */}
       {floatingIcons.map((item, index) => (
         <motion.div
@@ -91,7 +91,7 @@ const Hero = () => {
               onClick={toggleVideo}
             >
               {/* Placeholder vidéo */}
-              <div className="aspect-w-16 aspect-h-9 max-w-4xl bg-gray-800">
+              <div className="md:aspect-w-16 md:aspect-h-9 max-w-4xl bg-gray-800">
                 <video
                   src={videoUrl}
                   className="inset-0 w-full h-full object-cover"

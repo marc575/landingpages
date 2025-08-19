@@ -141,18 +141,18 @@ const Hero = () => {
 
           <div className='flex flex-col md:flex-row md:flex-wrap md:justify-between'>
             {/* Filtres supplémentaires */}
-            <div className="flex flex-wrap gap-3 mb-6">
-                <h5 className="text-md font-medium text-gray-900 px-4 py-2">Filtres:</h5>
-                <button className="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-800 text-sm font-medium rounded-lg transition-all">
+            <div className="flex flex-wrap gap-3 mb-2">
+                <h5 className="text-md font-medium text-gray-900 px-4 py-1">Filtres:</h5>
+                <button className="px-4 py-1 bg-gray-100 hover:bg-gray-200 text-gray-800 text-sm font-medium rounded-lg transition-all">
                     Jardin
                 </button>
-                <button className="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-800 text-sm font-medium rounded-lg transition-all">
+                <button className="px-4 py-1 bg-gray-100 hover:bg-gray-200 text-gray-800 text-sm font-medium rounded-lg transition-all">
                     Parking
                 </button>
-                <button className="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-800 text-sm font-medium rounded-lg transition-all">
+                <button className="px-4 py-1 bg-gray-100 hover:bg-gray-200 text-gray-800 text-sm font-medium rounded-lg transition-all">
                     Meublé
                 </button>
-                <button className="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-800 text-sm font-medium rounded-lg transition-all">
+                <button className="px-4 py-1 bg-gray-100 hover:bg-gray-200 text-gray-800 text-sm font-medium rounded-lg transition-all">
                     Balcon
                 </button>
             </div>

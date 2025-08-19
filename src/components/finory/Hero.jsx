@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from '../../assets/finory/banniere3.png';
+import heroImage from '../../assets/finory/banniere4.jpg';
 import { motion } from "framer-motion"
 import { 
   SiTesla,
@@ -32,7 +32,7 @@ const Hero = () => {
         <div className="w-full mx-auto">
             <div className="flex flex-col lg:flex-row items-center gap-6 md:gap-2">
             {/* Texte et CTA */}
-            <div className="lg:w-1/2 space-y-2 animate-fadeInUp pb-32 md:pb-16 lg:pl-10 px-4 sm:px-0">
+            <div className="lg:w-1/2 space-y-4 md:space-y-2 animate-fadeInUp pb-32 md:pb-16 lg:pl-10 px-4 sm:px-0">
 
                 {/* Titre principal avec dégradé */}
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-700">
@@ -80,7 +80,7 @@ const Hero = () => {
             </div>
 
             {/* Image */}
-            <div className="lg:w-1/2 animate-fadeIn order-first lg:order-last">
+            <div className="lg:w-1/2 animate-fadeIn order-first lg:order-last mt-24 md:mt-0">
                 <div className="relative overflow-hidden">
                     <img
                         src={heroImage}
