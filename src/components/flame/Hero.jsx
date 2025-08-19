@@ -32,7 +32,7 @@ const Hero = () => {
       {/* Contenu principal */}
       <div className="relative z-10 px-4 sm:px-6 lg:px-8 lg:py-24 flex flex-col justify-between max-h-screen">
         {/* Première sous-section */}
-        <div className="flex flex-col lg:flex-row items-start gap-0 mb-32">
+        <div className="flex flex-col lg:flex-row items-start gap-0 mb-28">
           {/* Partie gauche - Titre, avatars et texte */}
           <motion.div 
             initial={{ opacity: 0, x: -20 }}
