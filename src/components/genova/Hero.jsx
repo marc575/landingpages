@@ -7,26 +7,26 @@ import HeroImage3 from "../../assets/genova/banniere3.jpg";
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [timeLeft, setTimeLeft] = useState(15); // 15 secondes par slide
+  const [timeLeft, setTimeLeft] = useState(10); // 10 secondes par slide
 
   const slides = [
     {
       id: 1,
-      image: "/src/assets/genova/banniere1.jpg",
+      image: "https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
       title: "BMW Série 3",
       subtitle: "Élégance et performance",
       description: "Découvrez la nouvelle série 3 avec ses lignes épurées et sa technologie de pointe."
     },
     {
       id: 2,
-      image: "/src/assets/genova/banniere2.jpg",
+      image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
       title: "Audi A4",
       subtitle: "Innovation allemande",
       description: "Conduisez l'excellence avec l'Audi A4 et son système quattro légendaire."
     },
     {
       id: 3,
-      image: "/src/assets/genova/banniere3.jpg",
+      image: "https://images.unsplash.com/photo-1553440569-bcc63803a83d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
       title: "Mercedes Classe C",
       subtitle: "Luxe et confort",
       description: "Expérience de conduite premium avec la Classe C et son intérieur raffiné."
@@ -48,7 +48,7 @@ const Hero = () => {
       setTimeLeft((prev) => {
         if (prev <= 1) {
           setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
-          return 15;
+          return 10;
         }
         return prev - 1;
       });
@@ -59,12 +59,12 @@ const Hero = () => {
 
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % slides.length);
-    setTimeLeft(15);
+    setTimeLeft(10);
   };
 
   const prevSlide = () => {
     setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
-    setTimeLeft(15);
+    setTimeLeft(10);
   };
 
   return (
@@ -182,7 +182,7 @@ const Hero = () => {
               stroke="#ffffff"
               strokeWidth="2"
               strokeDasharray="100"
-              strokeDashoffset={100 - (timeLeft / 15) * 100}
+              strokeDashoffset={100 - (timeLeft / 10) * 100}
               className="transition-all duration-1000"
             />
           </svg>
@@ -206,7 +206,7 @@ const Hero = () => {
             key={index}
             onClick={() => {
               setCurrentSlide(index);
-              setTimeLeft(15);
+              setTimeLeft(10);
             }}
             className={`w-3 h-3 rounded-full transition-all ${
               index === currentSlide ? 'bg-white' : 'bg-white/50'
