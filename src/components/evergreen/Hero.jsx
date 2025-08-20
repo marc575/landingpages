@@ -4,6 +4,16 @@ import { FiSearch, FiMapPin, FiHome, FiDollarSign, FiLayers } from 'react-icons/
 import HeroImage from "../../assets/evergreen/banniere2.jpg"
 
 const Hero = () => {
+  
+  // Données clients
+  const clients = [
+    { id: 1, avatar: 'https://randomuser.me/api/portraits/women/44.jpg', name: 'Sophie' },
+    { id: 2, avatar: 'https://randomuser.me/api/portraits/men/32.jpg', name: 'Pierre' },
+    { id: 3, avatar: 'https://randomuser.me/api/portraits/women/68.jpg', name: 'Emma' },
+    { id: 4, avatar: 'https://randomuser.me/api/portraits/men/12.jpg', name: 'Luc' },
+    { id: 5, avatar: 'https://randomuser.me/api/portraits/women/43.jpg', name: 'Lea' },
+  ];
+  
   const [propertyType, setPropertyType] = useState('');
   const [budget, setBudget] = useState('');
   const [location, setLocation] = useState('');
@@ -55,14 +65,43 @@ const Hero = () => {
             Build Your Future, One Property at a Time
           </motion.h1>
           
-          <motion.p
+          <motion.div
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
             className="lg:w-1/2 text-md text-white/90"
           >
-            Découvrez des milliers de propriétés à louer dans toute la région. Des maisons, appartements et résidences soigneusement sélectionnés pour répondre à tous vos besoins.
-          </motion.p>
+                                              
+            {/* Badge avis clients */}
+            <motion.div 
+                className="relative"
+                whileHover={{ y: -5 }}
+                >
+                <div className="flex flex-row gap-2 md:gap-0 md:items-center mb-2">
+                    <div className="flex -space-x-2">
+                    {clients.map((client) => (
+                        <img
+                        key={client.id}
+                        src={client.avatar}
+                        alt={client.name}
+                        className="w-8 h-8 rounded-full border-2 border-white"
+                        />
+                    ))}
+                    </div>
+                    <div className="ml-3">
+                    <div className="flex items-center text-yellow-400">
+                        {[...Array(5)].map((_, i) => (
+                        <svg key={i} className="w-3 h-3 fill-current" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                        </svg>
+                        ))}
+                    </div>
+                    <span className="text-xs text-gray-300">4.9/5 (248 avis)</span>
+                    </div>
+                </div>
+            </motion.div>
+            <p>Découvrez des milliers de propriétés à louer dans toute la région. Des maisons, appartements et résidences soigneusement sélectionnés pour répondre à tous vos besoins.</p>
+          </motion.div>
         </div>
 
         {/* Formulaire de recherche */}

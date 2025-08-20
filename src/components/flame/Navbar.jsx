@@ -39,6 +39,20 @@ const Navbar = () => {
     >
       <div className="max-w-8xl mx-auto px-4 py-2 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
+          {/* Logo au centre */}
+          <motion.div 
+            className="flex-shrink-0"
+            whileHover={{ scale: 1.05 }}
+          >
+            <a href="#" className="flex items-center">
+                <img 
+                    src={logo} 
+                    className="rounded-xl border border-gray-100 w-10 hover:scale-105 transition-transform duration-300" 
+                    alt="logo" 
+                />
+            </a>
+          </motion.div>
+          
           {/* Menu gauche (mobile) */}
           <div className="md:hidden">
             <button
@@ -66,21 +80,6 @@ const Navbar = () => {
               </motion.a>
             ))}
           </nav>
-
-
-          {/* Logo au centre */}
-          <motion.div 
-            className="flex-shrink-0"
-            whileHover={{ scale: 1.05 }}
-          >
-            <a href="#" className="flex items-center">
-                <img 
-                    src={logo} 
-                    className="rounded-xl border border-gray-100 w-10 hover:scale-105 transition-transform duration-300" 
-                    alt="logo" 
-                />
-            </a>
-          </motion.div>
 
           {/* Icônes droite */}
           <div className="flex items-center space-x-4">

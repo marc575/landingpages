@@ -47,28 +47,8 @@ const Hero = () => {
               <span className="text-purple-700 font-medium">Croissance exponentielle</span>
             </div>
 
-            {/* Titre principal avec dégradé */}
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-purple-900">
-              Transformez votre business avec notre <span className='italic font-semibold'>solution innovante</span>
-            </h1>
-
-            {/* Description */}
-            <p className="text-md text-gray-600 max-w-2xl">
-              Découvrez comment notre plateforme peut booster votre productivité et simplifier vos processus avec des outils puissants et intuitifs.
-            </p>
-
-            {/* Boutons */}
-            <div className="flex flex-wrap gap-4 pt-2">
-              <button className="px-4 py-2 bg-gradient-to-r from-purple-600 to-purple-800 text-white font-medium rounded-lg hover:shadow-lg transition-all duration-300 hover:translate-y-[-2px]">
-                Découvrir
-              </button>
-              <button className="px-4 py-2 bg-gray-100 text-purple-700 font-medium rounded-lg hover:bg-gray-200 transition-all duration-300 hover:translate-y-[-2px]">
-                Voir la démo
-              </button>
-            </div>
-
             {/* Avis utilisateurs */}
-            <div className="flex items-center pt-4">
+            <div className="flex items-center pt-2">
               <div className="flex -space-x-2">
                 {users.map((user, index) => (
                   <img
@@ -87,6 +67,26 @@ const Hero = () => {
                 </div>
                 <p className="text-sm text-gray-500">Basé sur <span className="text-purple-700 font-medium">1,248 avis</span></p>
               </div>
+            </div>
+
+            {/* Titre principal avec dégradé */}
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-purple-900">
+              Transformez votre business avec notre <span className='italic font-semibold'>solution innovante</span>
+            </h1>
+
+            {/* Description */}
+            <p className="text-md text-gray-600 max-w-2xl">
+              Découvrez comment notre plateforme peut booster votre productivité et simplifier vos processus avec des outils puissants et intuitifs.
+            </p>
+
+            {/* Boutons */}
+            <div className="flex flex-wrap gap-4 pt-2">
+              <button className="px-4 py-2 bg-gradient-to-r from-purple-600 to-purple-800 text-white font-medium rounded-lg hover:shadow-lg transition-all duration-300 hover:translate-y-[-2px]">
+                Découvrir
+              </button>
+              <button className="px-4 py-2 bg-gray-100 text-purple-700 font-medium rounded-lg hover:bg-gray-200 transition-all duration-300 hover:translate-y-[-2px]">
+                Voir la démo
+              </button>
             </div>
           </div>
 

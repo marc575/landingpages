@@ -4,6 +4,16 @@ import { FiPlay, FiBookOpen, FiAward, FiUserCheck, FiX } from 'react-icons/fi';
 import { FaPlay, FaTimes, FaPause, FaVolumeUp, FaVolumeMute } from 'react-icons/fa';
 
 const Hero = () => {
+  
+  // Données clients
+  const clients = [
+    { id: 1, avatar: 'https://randomuser.me/api/portraits/women/44.jpg', name: 'Sophie' },
+    { id: 2, avatar: 'https://randomuser.me/api/portraits/men/32.jpg', name: 'Pierre' },
+    { id: 3, avatar: 'https://randomuser.me/api/portraits/women/68.jpg', name: 'Emma' },
+    { id: 4, avatar: 'https://randomuser.me/api/portraits/men/12.jpg', name: 'Luc' },
+    { id: 5, avatar: 'https://randomuser.me/api/portraits/women/43.jpg', name: 'Lea' },
+  ];
+
   const [isVideoOpen, setIsVideoOpen] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMuted, setIsMuted] = useState(true);
@@ -63,17 +73,46 @@ const Hero = () => {
       ))}
 
       <div className="max-w-8xl mx-auto flex flex-col gap-4 md:gap-0 items-center text-center">
+        
+        {/* Badge avis clients */}
+        <div 
+            className="relative"
+            >
+            <div className="flex flex-row gap-2 md:gap-0 md:items-center mb-1">
+                <div className="flex -space-x-2">
+                {clients.map((client) => (
+                    <img
+                    key={client.id}
+                    src={client.avatar}
+                    alt={client.name}
+                    className="w-8 h-8 rounded-full border-2 border-white"
+                    />
+                ))}
+                </div>
+                <div className="ml-3">
+                <div className="flex items-center text-yellow-400">
+                    {[...Array(5)].map((_, i) => (
+                    <svg key={i} className="w-3 h-3 fill-current" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                    ))}
+                </div>
+                <span className="text-xs text-gray-400">4.9/5 (248 avis)</span>
+                </div>
+            </div>
+        </div>
+
         {/* Titre et description */}
-        <motion.h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-700 mb-4">
+        <motion.h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-700 mb-2">
           <span className="font-medium font-serif">Empowering Ambitions</span> <br /> Trough Innovative Education
         </motion.h1>
         
-        <motion.p className="text-md sm:text-lg text-gray-600 max-w-3xl mb-6">
+        <motion.p className="text-md sm:text-lg text-gray-600 max-w-3xl mb-4">
           Découvrez une nouvelle façon d'apprendre avec nos cours interactifs.
         </motion.p>
 
         {/* Boutons */}
-        <div className="flex flex-wrap justify-center gap-4 mb-8">
+        <div className="flex flex-wrap justify-center gap-4 mb-6">
           <button className="px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white font-medium rounded-lg shadow-md transition-all">
             Commencer
           </button>

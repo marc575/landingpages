@@ -35,7 +35,7 @@ const Hero = () => {
             <div className="lg:w-1/2 space-y-4 md:space-y-2 animate-fadeInUp pb-32 md:pb-16 lg:pl-10 px-4 sm:px-0">
 
                 {/* Titre principal avec dégradé */}
-                <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-700">
+                <h1 className="text-4xl lg:text-5xl font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-700">
                     <span className='bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-orange-800 flex gap-2 items-center'>
                         Tailored  <FaIdCard className="w-8 h-8 text-gray-800" /><FaPiggyBank className="w-8 h-8 text-gray-800" />
                     </span>

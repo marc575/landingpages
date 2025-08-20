@@ -36,7 +36,7 @@ const Hero = () => {
           <motion.h1
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
             className="lg:w-1/2 text-4xl md:text-5xl lg:text-6xl font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-yellow-400 to-yellow-300 border-l-4 border-yellow-400 pl-6"
           >
             The Best Place for Any Creative
@@ -45,7 +45,7 @@ const Hero = () => {
           <motion.p
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
             className="lg:w-1/2 text-md text-white/80"
           >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum excepturi saepe dolorum labore eos, perferendis, illum possimus ea veritatis facilis rerum in soluta mollitia vel? Corporis soluta culpa doloremque a?
@@ -85,7 +85,7 @@ const Hero = () => {
             <PodcastPlayer 
                 title="Live de BBC World Service" 
                 image={HeroImage2} 
-                duration="45:22"
+                duration="5:22"
             />
         </div>
       </div>

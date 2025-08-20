@@ -8,6 +8,7 @@ import Ibte from './pages/Ibte'
 import Therapy from './pages/Therapy'
 import Evergreen from './pages/Evergreen'
 import Podcast from './pages/Podcast'
+import Genova from './pages/genova'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/therapy" element={<Therapy/>} /> 
         <Route path="/evergreen" element={<Evergreen/>} /> 
         <Route path="/podcast" element={<Podcast/>} /> 
+        <Route path="/genova" element={<Genova/>} /> 
       </Routes> 
     </Router> 
   )

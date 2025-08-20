@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const PodcastPlayer = ({ 
   title = "Titre du Podcast", 
   image = "https://via.placeholder.com/150", 
-  duration = "45:22" 
+  duration = "5:22" 
 }) => {
   const [isPlaying, setIsPlaying] = useState(false);
   const [progress, setProgress] = useState(0);
@@ -84,7 +84,7 @@ const PodcastPlayer = ({
       className="fixed max-w-md md:max-w-6xl mx-auto rounded-xl lg:rounded-full bottom-1 left-0 right-0 bg-white shadow-lg border-t border-gray-200 "
       initial={{ y: 100 }}
       animate={{ y: 0 }}
-      transition={{ type: 'spring', stiffness: 300 }}
+      transition={{ duration: 0.8, delay: 0.2 }}
     >
       <div className=" max-w-md md:max-w-6xl mx-auto px-4 md:px-8 py-4">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">

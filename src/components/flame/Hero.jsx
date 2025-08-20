@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FiArrowRight } from 'react-icons/fi';
-import HeroImage from "../../assets/flame/banniere1.jpg"
+import HeroImage from "../../assets/flame/banniere4.jpg"
 import HeroImage2 from "../../assets/flame/banniere3.jpg"
 
 const Hero = () => {
@@ -69,7 +69,7 @@ const Hero = () => {
               </div>
             </div>
             
-            <p className="text-md opacity-90 max-w-lg">
+            <p className="text-md opacity-90 max-w-lg mt-2">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             </p>
           </motion.div>
@@ -96,7 +96,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="lg:w-1/2 space-y-10 lg:space-y-6 text-white"
           >
-            <p className="text-lg max-w-lg opacity-90 text-white/90">
+            <p className="text-lg max-w-lg text-white/90">
               Prêt à vivre l'aventure de votre vie ? Notre équipe d'experts est là pour créer un voyage sur mesure qui correspond à vos rêves.
             </p>
             
@@ -104,7 +104,7 @@ const Hero = () => {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-6 py-3 bg-white text-gray-900 font-medium rounded-lg shadow-md flex items-center gap-2"
+                className="px-4 py-2 bg-white text-gray-900 font-medium rounded-lg shadow-md flex items-center gap-2"
               >
                 Boutique <FiArrowRight />
               </motion.button>
@@ -112,7 +112,7 @@ const Hero = () => {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="px-6 py-3 bg-transparent text-white border border-white/50 font-medium rounded-lg hover:bg-white/10 transition-all flex items-center gap-2"
+                className="px-4 py-2 bg-transparent text-white border border-white/50 font-medium rounded-lg hover:bg-white/10 transition-all flex items-center gap-2"
               >
                 Contactez-nous
               </motion.button>
@@ -127,14 +127,14 @@ const Hero = () => {
             className="lg:w-1/2 hidden md:flex md:justify-end"
           >
             <div className="relative">
-              <p className="text-md mb-1 opacity-90 text-white/90 md:text-end">
-                Lorem ipsum, dolor sit amet consectetur.
+              <p className="text-md mb-1 text-white/90 md:text-end">
+                Lorem ipsum, dolor sit <br />amet consectetur.
               </p>
               <div className="overflow-hidden ml-auto">
                 <img
                   src={HeroImage2}
                   alt="Voyageur"
-                  className="h-32 w-32 object-cover lg:ml-86 rounded-xl transition-all duration-500 hover:scale-105"
+                  className="h-24 w-24 object-cover lg:ml-86 rounded-xl transition-all duration-500 hover:scale-105"
                 />
               </div>
             </div>

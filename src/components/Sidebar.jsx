@@ -10,14 +10,15 @@ const Sidebar = () => {
   // Liste des pages (à adapter à vos routes)
   const pages = [
     { number: 1, path: '/', name: 'Calmnest' },
-    { number: 2, path: '/flowify', name: 'Flowify' },
-    { number: 3, path: '/xpress', name: 'Xpress' },
-    { number: 4, path: '/flame', name: 'Flame' },
-    { number: 5, path: '/finory', name: 'Finory' },
-    { number: 6, path: '/ibte', name: 'Ibte' },
-    { number: 7, path: '/therapy', name: 'Therapy' },
-    { number: 8, path: '/evergreen', name: 'Evergreen' },
-    { number: 9, path: '/podcast', name: 'Podcast' },
+    { number: 2, path: '/podcast', name: 'Podcast' },
+    { number: 3, path: '/evergreen', name: 'Evergreen' },
+    { number: 4, path: '/genova', name: 'Genova' },
+    { number: 5, path: '/therapy', name: 'Therapy' },
+    { number: 6, path: '/xpress', name: 'Xpress' },
+    { number: 7, path: '/flowify', name: 'Flowify' },
+    { number: 8, path: '/flame', name: 'Flame' },
+    { number: 9, path: '/finory', name: 'Finory' },
+    { number: 10, path: '/ibte', name: 'Ibte' },
   ];
 
   // Détection de la page active

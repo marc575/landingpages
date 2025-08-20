@@ -8,6 +8,9 @@
 ## Evergreen
 ![Demo](https://github.com/marc575/landingpages/blob/main/public/evergreen.png)
 
+## Genova
+![Demo](https://github.com/marc575/landingpages/blob/main/public/genova.png)
+
 ## Therapy
 ![Demo](https://github.com/marc575/landingpages/blob/main/public/therapy.png)
 
