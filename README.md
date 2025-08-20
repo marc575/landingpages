@@ -1,33 +1,33 @@
 
 ## CalmNest
-![Demo](https://github.com/marc575/landingpages/blob/main/public/calmnest.png)
+![Demo](https://github.com/marc575/landingpages/blob/main/public/calmnest.jpg)
 
 ## Podcast
-![Demo](https://github.com/marc575/landingpages/blob/main/public/podcast.png)
+![Demo](https://github.com/marc575/landingpages/blob/main/public/podcast.jpg)
 
 ## Evergreen
-![Demo](https://github.com/marc575/landingpages/blob/main/public/evergreen.png)
+![Demo](https://github.com/marc575/landingpages/blob/main/public/evergreen.jpg)
 
 ## Genova
-![Demo](https://github.com/marc575/landingpages/blob/main/public/genova.png)
+![Demo](https://github.com/marc575/landingpages/blob/main/public/genova.jpg)
 
 ## Therapy
-![Demo](https://github.com/marc575/landingpages/blob/main/public/therapy.png)
+![Demo](https://github.com/marc575/landingpages/blob/main/public/therapy.jpg)
 
 ## Ibte
-![Demo](https://github.com/marc575/landingpages/blob/main/public/ibte.png)
+![Demo](https://github.com/marc575/landingpages/blob/main/public/ibte.jpg)
 
 ## Finory
-![Demo](https://github.com/marc575/landingpages/blob/main/public/finory.png)
+![Demo](https://github.com/marc575/landingpages/blob/main/public/finory.jpg)
 
 ## Xpress
-![Demo](https://github.com/marc575/landingpages/blob/main/public/xpress.png)
+![Demo](https://github.com/marc575/landingpages/blob/main/public/xpress.jpg)
 
 ## Flowify
-![Demo](https://github.com/marc575/landingpages/blob/main/public/flowify.png)
+![Demo](https://github.com/marc575/landingpages/blob/main/public/flowify.jpg)
 
 ## Flame
-![Demo](https://github.com/marc575/landingpages/blob/main/public/flame.png)
+![Demo](https://github.com/marc575/landingpages/blob/main/public/flame.jpg)
 
 
 # Structure du projet
@@ -36,7 +36,17 @@
 ├── 📁 .git/ 🚫 (auto-hidden)
 ├── 📁 node_modules/ 🚫 (auto-hidden)
 ├── 📁 public/
-│   └── 🖼️ logo.png
+│   ├── 🖼️ calmnest.jpg
+│   ├── 🖼️ evergreen.jpg
+│   ├── 🖼️ finory.jpg
+│   ├── 🖼️ flame.jpg
+│   ├── 🖼️ flowify.jpg
+│   ├── 🖼️ genova.jpg
+│   ├── 🖼️ ibte.jpg
+│   ├── 🖼️ logo.png
+│   ├── 🖼️ podcast.jpg
+│   ├── 🖼️ therapy.jpg
+│   └── 🖼️ xpress.jpg
 ├── 📁 src/
 │   ├── 📁 assets/
 │   │   ├── 📁 calmnest/
@@ -55,7 +65,8 @@
 │   │   ├── 📁 flame/
 │   │   │   ├── 🖼️ banniere1.jpg
 │   │   │   ├── 🖼️ banniere2.jpg
-│   │   │   └── 🖼️ banniere3.jpg
+│   │   │   ├── 🖼️ banniere3.jpg
+│   │   │   └── 🖼️ banniere4.jpg
 │   │   ├── 📁 flowify/
 │   │   │   ├── 🖼️ banniere1.jpg
 │   │   │   ├── 🖼️ banniere2.jpg
@@ -63,6 +74,10 @@
 │   │   │   ├── 🖼️ banniere4.jpg
 │   │   │   ├── 🖼️ banniere5.webp
 │   │   │   └── 🖼️ banniere6.png
+│   │   ├── 📁 genova/
+│   │   │   ├── 🖼️ banniere1.jpg
+│   │   │   ├── 🖼️ banniere2.jpg
+│   │   │   └── 🖼️ banniere3.jpg
 │   │   ├── 📁 ibte/
 │   │   ├── 📁 podcast/
 │   │   │   ├── 🖼️ banniere1.jpg
@@ -95,6 +110,9 @@
 │   │   │   ├── 📄 Client.jsx
 │   │   │   ├── 📄 Hero.jsx
 │   │   │   └── 📄 Navbar.jsx
+│   │   ├── 📁 genova/
+│   │   │   ├── 📄 Hero.jsx
+│   │   │   └── 📄 Navbar.jsx
 │   │   ├── 📁 ibte/
 │   │   │   ├── 📄 Hero.jsx
 │   │   │   └── 📄 Navbar.jsx
@@ -121,7 +139,8 @@
 │   │   ├── 📄 Ibte.jsx
 │   │   ├── 📄 Podcast.jsx
 │   │   ├── 📄 Therapy.jsx
-│   │   └── 📄 Xpress.jsx
+│   │   ├── 📄 Xpress.jsx
+│   │   └── 📄 genova.jsx
 │   ├── 📄 App.jsx
 │   ├── 🎨 index.css
 │   └── 📄 main.jsx
