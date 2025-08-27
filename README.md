@@ -44,6 +44,15 @@
 ## Five
 ![Demo](https://github.com/marc575/landingpages/blob/main/public/five.jpg)
 
+## Dashboard Projet
+![Demo](https://github.com/marc575/landingpages/blob/main/public/project.jpg)
+
+## Dashboard Ecommerce
+![Demo](https://github.com/marc575/landingpages/blob/main/public/ecommerce.jpg)
+
+## Dashboard Analytics
+![Demo](https://github.com/marc575/landingpages/blob/main/public/analytics.jpg)
+
 
 # Structure du projet
 
