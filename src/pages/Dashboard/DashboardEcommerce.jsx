@@ -332,6 +332,11 @@ const DashboardEcommerce = () => {
   );
 
   return (
+    <>
+    <helmet>
+        <title>Dashboard Ecommerce | Tatchou Marc</title>
+    </helmet>
+
     <Layout sidebarContent={sidebarContent} headerContent={headerContent}>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
         {/* Cartes statistiques */}
@@ -490,6 +495,8 @@ const DashboardEcommerce = () => {
         </div>
       </div>
     </Layout>
+
+    </>
   );
 };
 

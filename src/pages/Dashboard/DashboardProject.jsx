@@ -152,6 +152,11 @@ const DashboardProject = () => {
   );
 
   return (
+    <>
+    <helmet>
+        <title>Dashboard Projects | Tatchou Marc</title>
+    </helmet>
+
     <Layout sidebarContent={sidebarContent} headerContent={headerContent}>
       {/* Modal pour nouveau projet */}
       {isProjectModalOpen && (
@@ -305,6 +310,7 @@ const DashboardProject = () => {
         </div>
       </div>
     </Layout>
+    </>
   );
 };
 
