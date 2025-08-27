@@ -14,6 +14,9 @@ import Two from './pages/Auth/Two'
 import Three from './pages/Auth/three'
 import Fourth from './pages/Auth/Fourth'
 import Five from './pages/Auth/Five'
+import DashboardAnalytics from './pages/Dashboard/DashboardAnalytics'
+import DashboardEcommerce from './pages/Dashboard/DashboardEcommerce'
+import DashboardProject from './pages/Dashboard/DashboardProject'
 
 function App() {
 
@@ -35,6 +38,9 @@ function App() {
         <Route path="/three" element={<Three/>} /> 
         <Route path="/fourth" element={<Fourth/>} /> 
         <Route path="/five" element={<Five/>} /> 
+        <Route path="/analytics" element={<DashboardAnalytics/>} /> 
+        <Route path="/ecommerce" element={<DashboardEcommerce/>} /> 
+        <Route path="/project" element={<DashboardProject/>} /> 
       </Routes> 
     </Router> 
   )
