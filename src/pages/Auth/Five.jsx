@@ -37,6 +37,10 @@ const Five = () => {
 
   return (
     <>
+    <helmet>
+      <title>Authentification 05 | Tatchou Marc</title>
+    </helmet>
+
     <div className="min-h-screen flex flex-col md:flex-row">
       {/* Section image */}
       <div className="hidden md:flex md:w-1/2 relative">
@@ -258,7 +262,7 @@ const Five = () => {
         </div>
       </div>
     </div>
-    
+
     <Sidebar />
     </>
   );

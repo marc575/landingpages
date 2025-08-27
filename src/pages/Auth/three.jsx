@@ -37,6 +37,10 @@ const Three = () => {
 
   return (
     <>
+    <helmet>
+      <title>Authentification 03 | Tatchou Marc</title>
+    </helmet>
+
     <div className="min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat p-4" style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1579546929662-711aa81148cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80")' }}>
       {/* Overlay sombre pour améliorer la lisibilité */}
       <div className="absolute inset-0"></div>
@@ -240,7 +244,7 @@ const Three = () => {
         </div>
       </div>
     </div>
-    
+
     <Sidebar />
     </>
   );

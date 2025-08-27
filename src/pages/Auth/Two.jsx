@@ -38,6 +38,10 @@ const Two = () => {
 
   return (
     <>
+    <helmet>
+      <title>Authentification 02 | Tatchou Marc</title>
+    </helmet>
+
     <div className="min-h-screen flex flex-col md:flex-row bg-white">
       {/* Section illustration */}
       <div className="hidden md:flex md:w-1/2 bg-gradient-to-br from-indigo-700 to-purple-700 text-white items-center justify-center p-12">
@@ -245,7 +249,7 @@ const Two = () => {
         </div>
       </div>
     </div>
-    
+
     <Sidebar />
     </>
   );
