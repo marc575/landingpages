@@ -28,7 +28,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="bg-white relative">
+    <section className="bg-gray-50 relative">
         <div className="w-full mx-auto">
             <div className="flex flex-col lg:flex-row items-center gap-6 md:gap-2">
             {/* Texte et CTA */}

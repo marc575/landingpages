@@ -113,7 +113,7 @@ const Navbar = () => {
             
             {/* Bouton CTA à droite */}
             <a
-                href="#contact"
+                href="/five"
                 className={`hidden md:inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md transition-all duration-300 ${scrolled ? 'bg-yellow-500 text-white hover:bg-yellow-400' : 'bg-yellow-500 text-white hover:bg-yellow-400'} shadow-sm hover:shadow-md`}
             >
                 S'abonner
@@ -144,7 +144,7 @@ const Navbar = () => {
                 </a>
               ))}
                 <a
-                    href="#contact"
+                    href="/five"
                     className="block w-full px-4 py-2 mt-2 rounded-md text-base font-medium text-white bg-yellow-500 hover:bg-yellow-400 transition-colors duration-300 text-center"
                     onClick={() => setIsMenuOpen(false)}
                 >

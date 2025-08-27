@@ -57,7 +57,7 @@ const Navbar = () => {
             <div className="hidden md:block">   
                 {/* Bouton CTA à droite */}
                 <a
-                    href="#contact"
+                    href="/fourth"
                     className={`inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md transition-all duration-300 ${scrolled ? 'bg-gray-900 text-white hover:bg-purple-700' : 'bg-gray-900 text-white hover:bg-purple-700'} shadow-sm hover:shadow-md`}
                 >
                     Sign In
@@ -94,7 +94,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="#contact"
+            href="/fourth"
             className="block w-full px-4 py-2 mt-2 rounded-md text-base font-medium text-white bg-gray-900 hover:bg-purple-700 transition-colors duration-300 text-center"
             onClick={() => setIsMenuOpen(false)}
           >

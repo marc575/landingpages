@@ -57,7 +57,7 @@ const Navbar = () => {
             <div className="hidden md:flex gap-4">   
                 {/* Bouton CTA à droite */}
                 <a
-                    href="#contact"
+                    href="/three"
                     className={`inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md transition-all duration-300 ${scrolled ? 'bg-gray-200 text-dark hover:bg-purple-700 hover:text-white' : 'bg-gray-200 text-dark hover:bg-purple-700 hover:text-white'} shadow-sm hover:shadow-md`}
                 >
                     Connexion
@@ -103,7 +103,7 @@ const Navbar = () => {
             <div className="flex gap-4">   
                 {/* Bouton CTA à droite */}
                 <a
-                    href="#contact"
+                    href="/three"
                     className={`inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md transition-all duration-300 ${scrolled ? 'bg-gray-200 text-dark hover:bg-purple-700 hover:text-white' : 'bg-gray-200 text-dark hover:bg-purple-700 hover:text-white'} shadow-sm hover:shadow-md`}
                 >
                     Connexion

@@ -29,6 +29,21 @@
 ## Flame
 ![Demo](https://github.com/marc575/landingpages/blob/main/public/flame.jpg)
 
+## One
+![Demo](https://github.com/marc575/landingpages/blob/main/public/one.jpg)
+
+## Two
+![Demo](https://github.com/marc575/landingpages/blob/main/public/two.jpg)
+
+## Three
+![Demo](https://github.com/marc575/landingpages/blob/main/public/three.jpg)
+
+## Fourth
+![Demo](https://github.com/marc575/landingpages/blob/main/public/fourth.jpg)
+
+## Five
+![Demo](https://github.com/marc575/landingpages/blob/main/public/five.jpg)
+
 
 # Structure du projet
 
@@ -87,6 +102,8 @@
 │   │   │   ├── 🖼️ banniere2.jpg
 │   │   │   ├── 🖼️ banniere3.jpg
 │   │   │   └── 🖼️ banniere4.jpg
+│   │   ├── 📁 two/
+│   │   │   ├── 🖼️ banniere.jpg
 │   │   ├── 📁 xpress/
 │   │   │   ├── 🖼️ banniere1.jpg
 │   │   │   └── 🖼️ banniere2.webp
@@ -131,6 +148,12 @@
 │   │   ├── 📄 Popup.jsx
 │   │   └── 📄 Sidebar.jsx
 │   ├── 📁 pages/
+│   │   ├── 📁 Auth/
+│   │   │   ├── 📄 Five.jsx
+│   │   │   ├── 📄 Fourth.jsx
+│   │   │   └── 📄 One.jsx
+│   │   │   ├── 📄 Three.jsx
+│   │   │   └── 📄 Two.jsx
 │   │   ├── 📄 Calmnest.jsx
 │   │   ├── 📄 Evergreen.jsx
 │   │   ├── 📄 Finory.jsx

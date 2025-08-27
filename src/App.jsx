@@ -9,6 +9,11 @@ import Therapy from './pages/Therapy'
 import Evergreen from './pages/Evergreen'
 import Podcast from './pages/Podcast'
 import Genova from './pages/genova'
+import One from './pages/Auth/One'
+import Two from './pages/Auth/Two'
+import Three from './pages/Auth/three'
+import Fourth from './pages/Auth/Fourth'
+import Five from './pages/Auth/Five'
 
 function App() {
 
@@ -25,6 +30,11 @@ function App() {
         <Route path="/evergreen" element={<Evergreen/>} /> 
         <Route path="/podcast" element={<Podcast/>} /> 
         <Route path="/genova" element={<Genova/>} /> 
+        <Route path="/one" element={<One/>} /> 
+        <Route path="/two" element={<Two/>} /> 
+        <Route path="/three" element={<Three/>} /> 
+        <Route path="/fourth" element={<Fourth/>} /> 
+        <Route path="/five" element={<Five/>} /> 
       </Routes> 
     </Router> 
   )
