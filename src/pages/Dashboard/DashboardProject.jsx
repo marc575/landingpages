@@ -92,7 +92,7 @@ const DashboardProject = () => {
 
   const sidebarContent = (
     <ul className="space-y-2">
-      <li><a href="#" className="flex items-center px-4 py-2 font-medium hover:text-white bg-purple-700 rounded-lg">Mes projets</a></li>
+      <li><a href="#" className="flex items-center px-4 py-2 font-medium hover:text-white bg-blue-100 rounded-lg">Mes projets</a></li>
       <li><a href="#" className="flex items-center px-4 py-2 font-medium hover:text-white hover:bg-purple-700 rounded-lg">Tâches</a></li>
       <li><a href="#" className="flex items-center px-4 py-2 font-medium hover:text-white hover:bg-purple-700 rounded-lg">Équipe</a></li>
       <li><a href="#" className="flex items-center px-4 py-2 font-medium hover:text-white hover:bg-purple-700 rounded-lg">Calendrier</a></li>
@@ -119,7 +119,7 @@ const DashboardProject = () => {
       
       <div className="flex items-center space-x-4">
         <button 
-          className="px-4 py-2 bg-purple-700 text-white rounded-lg hover:bg-purple-800 focus:outline-none focus:ring-2 focus:ring-purple-600 transition-colors"
+          className="px-4 py-2 bg-purple-700 hidden md:block text-white rounded-lg hover:bg-purple-800 focus:outline-none focus:ring-2 focus:ring-purple-600 transition-colors"
           onClick={() => setIsProjectModalOpen(true)}
         >
           Nouveau projet

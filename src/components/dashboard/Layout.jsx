@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Sidebar from '../Sidebar';
 
 const Layout = ({ sidebarContent, headerContent, children }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -33,7 +34,7 @@ const Layout = ({ sidebarContent, headerContent, children }) => {
       {/* Contenu principal */}
       <div className="flex-1 flex flex-col overflow-hidden">
         {/* Header */}
-        <header className="flex items-center justify-between px-6 py-4 bg-white border-b">
+        <header className="flex items-center justify-between px-6 py-4 bg-white">
           <button 
             className="text-gray-500 focus:outline-none lg:hidden"
             onClick={() => setSidebarOpen(true)}
@@ -52,6 +53,8 @@ const Layout = ({ sidebarContent, headerContent, children }) => {
           {children}
         </main>
       </div>
+
+      <Sidebar />
     </div>
   );
 };
