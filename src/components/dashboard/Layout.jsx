@@ -8,25 +8,28 @@ const Layout = ({ sidebarContent, headerContent, children }) => {
     <div className="flex h-screen bg-gray-100">
       {/* Sidebar */}
       <aside className={`fixed inset-y-0 left-0 z-50 w-64 bg-gray-50 transform transition-transform duration-300 lg:static lg:translate-x-0 ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}>
-        <div className=" px-4 flex-1 pt-3 h-16 bg-gray-100 border-b border-gray-900">
-          <span className="font-bold text-2xl">Tatchou Marc</span>
+        <div className=" px-4 flex-1 pt-3 h-16 bg-gray-100 border-b border-gray-300">
+          <span className="font-bold text-3xl text-purple-950">T. Marc</span>
         </div>
         <nav className="mt-5 px-4 flex-1">
           {sidebarContent}
         </nav>
         
         {/* Bouton d'aide en bas de la sidebar */}
-        <div className="absolute bottom-0 w-full p-4 border-t border-gray-900">
-          <a href="#" className="flex items-center justify-center text-md font-medium">
-            Deconnexion ?
-          </a>
+        <div className="absolute bottom-0 w-full p-4 border-t border-gray-300">
+            <a href="#" className="flex items-center justify-center hover:text-red-400 transition-colors">
+                <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 16l4-4m0 0l-4-4m4 4H7m6 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h4a3 3 0 013 3v1"></path>
+                </svg>
+                Déconnexion
+            </a>
         </div>
       </aside>
 
       {/* Overlay pour mobile */}
       {sidebarOpen && (
         <div 
-          className="fixed inset-0 bg-gray-900 opacity-50 z-40 lg:hidden"
+          className="fixed inset-0 bg-gray-200 opacity-50 z-40 lg:hidden"
           onClick={() => setSidebarOpen(false)}
         ></div>
       )}
