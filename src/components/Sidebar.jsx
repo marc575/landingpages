@@ -9,7 +9,7 @@ const Sidebar = () => {
   const [expanded, setExpanded] = useState(false);
   const [currentPageGroup, setCurrentPageGroup] = useState(0);
   const [searchTerm, setSearchTerm] = useState('');
-  const itemsPerGroup = 7; // Nombre d'éléments par groupe
+  const itemsPerGroup = 10; // Nombre d'éléments par groupe
 
   // Liste des pages (à adapter à vos routes)
   const pages = [
