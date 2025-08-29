@@ -87,7 +87,7 @@ const Comparison = () => {
   ];
 
   return (
-    <div className="bg-white py-16 md:py-24 px-4 sm:px-6 lg:px-8">
+    <div id='benefits' className="bg-white py-16 md:py-24 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* En-tête de section */}
         <div className="text-start mb-16 flex flex-wrap gap-8">

@@ -4,7 +4,7 @@ import aboutImage from '../../assets/ibte/banniere.jpg';
 const About = () => {
 
   return (
-    <section className="bg-gray-50 py-16 md:py-24 px-4 sm:px-6 lg:px-8">
+    <section id='about' className="bg-gray-50 py-16 md:py-24 px-4 sm:px-6 lg:px-8">
       <div className="max-w-8xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center gap-12">
           {/* Texte et CTA */}

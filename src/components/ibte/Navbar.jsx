@@ -20,11 +20,10 @@ const Navbar = () => {
   }, [scrolled]);
 
   const navItems = [
-    { name: 'Accueil', href: '#home' },
-    { name: 'Services', href: '#services' },
-    { name: 'Projets', href: '#projects' },
-    { name: 'À propos', href: '#about' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Home', href: '#top' },
+    { name: 'Features', href: '#features' },
+    { name: 'About', href: '#about' },
+    { name: 'Benefits', href: '#benefits' },
   ];
 
   return (
@@ -60,14 +59,14 @@ const Navbar = () => {
                     href="/three"
                     className={`inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md transition-all duration-300 ${scrolled ? 'bg-gray-200 text-dark hover:bg-purple-700 hover:text-white' : 'bg-gray-200 text-dark hover:bg-purple-700 hover:text-white'} shadow-sm hover:shadow-md`}
                 >
-                    Connexion
+                    Sign-In
                     <FaArrowRight className="ml-2" />
                 </a>
                 <a
                     href="#contact"
                     className={`inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md transition-all duration-300 ${scrolled ? 'bg-gray-900 text-white hover:bg-purple-700' : 'bg-gray-900 text-white hover:bg-purple-700'} shadow-sm hover:shadow-md`}
                 >
-                    Commencer
+                    Apply Now
                     <FaArrowRight className="ml-2" />
                 </a>
             </div> 
@@ -106,14 +105,14 @@ const Navbar = () => {
                     href="/three"
                     className={`inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md transition-all duration-300 ${scrolled ? 'bg-gray-200 text-dark hover:bg-purple-700 hover:text-white' : 'bg-gray-200 text-dark hover:bg-purple-700 hover:text-white'} shadow-sm hover:shadow-md`}
                 >
-                    Connexion
+                    Sin-In
                     <FaArrowRight className="ml-2" />
                 </a>
                 <a
                     href="#contact"
                     className={`inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md transition-all duration-300 ${scrolled ? 'bg-gray-900 text-white hover:bg-purple-700' : 'bg-gray-900 text-white hover:bg-purple-700'} shadow-sm hover:shadow-md`}
                 >
-                    Commencer
+                    Apply Now
                     <FaArrowRight className="ml-2" />
                 </a>
             </div> 

@@ -54,7 +54,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative h-auto md:h-screen my-auto overflow-hidden bg-gradient-to-br from-white to-purple-100 py-28 px-4 sm:px-6 lg:px-8">
+    <section id='top' className="relative h-auto md:h-screen my-auto overflow-hidden bg-gradient-to-br from-white to-purple-100 py-28 px-4 sm:px-6 lg:px-8">
       {/* Icônes flottantes */}
       {floatingIcons.map((item, index) => (
         <motion.div
@@ -103,21 +103,21 @@ const Hero = () => {
         </div>
 
         {/* Titre et description */}
-        <motion.h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-700 mb-2">
+        <motion.h1 className="text-4xl md:text-5xl font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-700 mb-2">
           <span className="font-medium font-serif">Empowering Ambitions</span> <br /> Trough Innovative Education
         </motion.h1>
         
-        <motion.p className="text-md sm:text-lg text-gray-600 max-w-3xl mb-4">
-          Découvrez une nouvelle façon d'apprendre avec nos cours interactifs.
+        <motion.p className="text-md sm:text-lg text-gray-600 max-w-2xl mb-4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, corporis molestiae repudiandae inventore hic? Magnam optio dolor laborum repudiandae?
         </motion.p>
 
         {/* Boutons */}
         <div className="flex flex-wrap justify-center gap-4 mb-6">
           <button className="px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white font-medium rounded-lg shadow-md transition-all">
-            Commencer
+            Apply Now
           </button>
           <button className="px-4 py-2 bg-white text-purple-600 border border-purple-200 font-medium rounded-lg shadow-sm transition-all">
-            Programmes
+            Programs
           </button>
         </div>
 
