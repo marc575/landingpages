@@ -109,7 +109,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.6 }}
-          className="bg-white rounded-xl shadow-2xl p-6"
+          className="bg-white rounded-xl shadow-2xl p-6 mb-4"
         >
           <h2 className="text-xl font-bold text-gray-900 mb-6">Rechercher une propriété</h2>
           

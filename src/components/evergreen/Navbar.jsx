@@ -33,13 +33,23 @@ const Navbar = () => {
 
   return (
     <motion.header 
-      className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-sm' : 'bg-transparent'}`}
+      className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-gray-50 shadow-sm' : 'bg-transparent'}`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
     >
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16 md:h-20">
+        <div className="flex justify-between items-center h-auto py-1">
+          {/* Logo - Centré */}
+          <motion.div 
+            className="md:mx-0"
+            whileHover={{ scale: 1.05 }}
+          >
+            <a href="#" className="flex items-center">
+              <img src={logo} className='rounded-full border border-gray-100 w-12 hover:scale-105 transition-transform duration-300' alt="logo" />
+            </a>
+          </motion.div>
+
           {/* Menu mobile */}
           <div className="md:hidden">
             <button
@@ -50,18 +60,8 @@ const Navbar = () => {
             </button>
           </div>
 
-          {/* Logo - Centré */}
-          <motion.div 
-            className="flex-shrink-0 mx-auto md:mx-0"
-            whileHover={{ scale: 1.05 }}
-          >
-            <a href="#" className="flex items-center">
-              <img src={logo} className='rounded-full border border-gray-100 w-12 hover:scale-105 transition-transform duration-300' alt="logo" />
-            </a>
-          </motion.div>
-
           {/* Menu desktop - Centré */}
-          <nav className="hidden md:flex items-center space-x-8 mx-auto">
+          <nav className="hidden md:flex items-center space-x-8 mx-auto relative">
             {navItems.map((item) => (
               <motion.a
                 key={item.name}
@@ -76,10 +76,7 @@ const Navbar = () => {
                 />
               </motion.a>
             ))}
-          </nav>
-
-          {/* Sélecteur de langue - Droite */}
-          <div className="relative flex gap-4">
+            
             <motion.button
               onClick={() => setIsLanguageOpen(!isLanguageOpen)}
               className={`flex items-center gap-1 ${scrolled ? 'text-gray-800' : 'text-white'} p-2`}
@@ -91,7 +88,7 @@ const Navbar = () => {
 
             {isLanguageOpen && (
               <motion.div
-                className="absolute right-0 mt-2 w-32 bg-white rounded-md shadow-lg py-1 z-50"
+                className="absolute right-0 mt-36 w-32 bg-white rounded-md shadow-lg py-1 z-50"
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -10 }}
@@ -110,13 +107,17 @@ const Navbar = () => {
                 ))}
               </motion.div>
             )}
+          </nav>
+
+          {/* Sélecteur de langue - Droite */}
+          <div className="hidden md:block">
             
             {/* Bouton CTA à droite */}
             <a
                 href="#contact"
-                className={`hidden md:inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md transition-all duration-300 ${scrolled ? 'bg-blue-600 text-white hover:bg-blue-700' : 'bg-blue-600 text-white hover:bg-blue-700'} shadow-sm hover:shadow-md`}
+                className={`inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md transition-all duration-300 ${scrolled ? 'bg-blue-600 text-white hover:bg-blue-700' : 'bg-blue-600 text-white hover:bg-blue-700'} shadow-sm hover:shadow-md`}
             >
-                Contactez-nous
+                Contact
                 <FaArrowRight className="ml-2" />
             </a>
           </div>

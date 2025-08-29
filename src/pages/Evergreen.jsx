@@ -3,6 +3,14 @@ import Hero from '../components/evergreen/Hero'
 import Sidebar from '../components/Sidebar'
 import Navbar from '../components/evergreen/Navbar'
 import Popup from '../components/Popup';
+import About from '../components/evergreen/About';
+import Stats from '../components/evergreen/Stats';
+import Find from '../components/evergreen/Find';
+import Properties from '../components/evergreen/Properties';
+import Reviews from '../components/evergreen/Reviews';
+import Faq from '../components/evergreen/Faq';
+import Contact from '../components/evergreen/Contact';
+import Footer from '../components/evergreen/Footer';
 
 
 function Evergreen() {
@@ -39,6 +47,14 @@ function Evergreen() {
         </header>
         <main>
             <Hero />
+            <About />
+            <Stats />
+            <Find />
+            <Properties />
+            <Reviews />
+            <Faq />
+            <Contact />
+            <Footer />
             <Sidebar />
 
             <Popup show={isInactive} onClose={() => setIsInactive(false)} />

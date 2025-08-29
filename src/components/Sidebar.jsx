@@ -13,17 +13,17 @@ const Sidebar = () => {
 
   // Liste des pages (à adapter à vos routes)
   const pages = [
+    { number: 3, path: '/evergreen', name: 'Evergreen', icon: '🌲' },
+    { number: 16, path: '/ecommerce', name: 'Ecommerce', icon: '🚛' },
+    { number: 17, path: '/project', name: 'Project', icon: '🎯' },
+    { number: 18, path: '/Analytics', name: 'Analytics', icon: '✨' },
     { number: 11, path: '/one', name: 'One', icon: '1️⃣' },
     { number: 12, path: '/two', name: 'Two', icon: '2️⃣' },
     { number: 13, path: '/three', name: 'Three', icon: '3️⃣' },
     { number: 14, path: '/fourth', name: 'Fourth', icon: '4️⃣' },
     { number: 15, path: '/five', name: 'Five', icon: '5️⃣' },
-    { number: 16, path: '/ecommerce', name: 'Ecommerce', icon: '🚛' },
-    { number: 17, path: '/project', name: 'Project', icon: '🎯' },
-    { number: 18, path: '/Analytics', name: 'Analytics', icon: '✨' },
     { number: 1, path: '/', name: 'Calmnest', icon: '🧘' },
     { number: 2, path: '/podcast', name: 'Podcast', icon: '🎙️' },
-    { number: 3, path: '/evergreen', name: 'Evergreen', icon: '🌲' },
     { number: 4, path: '/genova', name: 'Genova', icon: '🏙️' },
     { number: 5, path: '/therapy', name: 'Therapy', icon: '💬' },
     { number: 6, path: '/xpress', name: 'Xpress', icon: '⚡' },
