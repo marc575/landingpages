@@ -21,7 +21,7 @@ const Newsletter = () => {
   };
 
   return (
-    <div className="relative py-16 px-4 sm:px-6 lg:px-8 overflow-hidden max-w-7xl mx-auto mb-16 rounded-xl" id='contact'>
+    <div className="relative py-16 px-4 sm:px-6 lg:px-8 overflow-hidden md:max-w-7xl max-xl mx-auto mb-16 rounded-xl" id='contact'>
       {/* Image d'arrière-plan */}
       <div className="absolute inset-0 z-0">
         <img 

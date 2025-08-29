@@ -83,8 +83,8 @@ const Features = () => {
                   {benefit.icon}
                 </div>
               </div>
-              <h3 className="text-xl font-bold text-black mb-4">{benefit.title}</h3>
-              <p className="text-gray-600">{benefit.description}</p>
+              <h3 className="text-xl font-bold text-black mb-4 text-center md:text-start">{benefit.title}</h3>
+              <p className="text-gray-600 text-center md:text-start">{benefit.description}</p>
             </div>
           ))}
         </div>
