@@ -3,6 +3,10 @@ import Hero from '../components/ibte/Hero'
 import Sidebar from '../components/Sidebar'
 import Navbar from '../components/ibte/Navbar'
 import Popup from '../components/Popup';
+import Features from '../components/ibte/Features';
+import About from '../components/ibte/About';
+import Comparison from '../components/ibte/Comparison';
+import Footer from '../components/Footer';
 
 function Ibte() {
   const [isInactive, setIsInactive] = useState(false);
@@ -38,6 +42,10 @@ function Ibte() {
         </header>
         <main>
             <Hero />
+            <Features />
+            <About />
+            <Comparison />
+            <Footer title="IBTE" />
             <Sidebar />
 
             <Popup show={isInactive} onClose={() => setIsInactive(false)} />
