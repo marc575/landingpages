@@ -93,7 +93,7 @@ const Properties = () => {
     : properties.filter(property => property.status === activeFilter);
 
   return (
-    <div className="bg-gray-50 py-16 md:py-24 px-4 sm:px-6 lg:px-8">
+    <div className="bg-gray-50 py-16 md:py-24 px-4 sm:px-6 lg:px-8" id='properties'>
       <div className="max-w-8xl mx-auto">
         <div className='flex flex-wrap gap-4 items-center justify-between'>
             <div className="mb-12">

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Footer = () => {
+const Footer = ({title}) => {
   const currentYear = new Date().getFullYear();
 
   return (
@@ -9,28 +9,28 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="text-center md:text-left">
             <p className="text-gray-400 text-sm">
-              © {currentYear} EverGreen. Tous droits réservés.
+              © {currentYear} {title}. All rights reserved.
             </p>
           </div>
           
           <div className="flex flex-wrap justify-center gap-6">
             <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
-              Conditions générales
+              Terms and Conditions
             </a>
             <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
-              Politique de confidentialité
+              Privacy Policy
             </a>
             <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
-              Mentions légales
+              Legal notices
             </a>
           </div>
           
           <div className="text-center md:text-right">
             <p className="text-gray-400 text-sm">
-              Conçu avec ❤️ par{" "}
+              Designed with ❤️ by{" "}
               <a 
                 href="https://www.linkedin.com/in/marc-tatchou-85891a243/" 
-                className="text-blue-400 hover:text-blue-300 transition-colors duration-300"
+                className="text-yellow-400 hover:text-yellow-300 transition-colors duration-300"
               >
                 Tatchou Marc
               </a>

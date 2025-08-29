@@ -81,7 +81,7 @@ const PodcastPlayer = ({
 
   return (
     <motion.div 
-      className="fixed max-w-md md:max-w-6xl mx-auto rounded-xl lg:rounded-full bottom-1 left-0 right-0 bg-white shadow-lg border-t border-gray-200 "
+      className="absolute max-w-md md:max-w-6xl mx-auto rounded-xl lg:rounded-full -bottom-10 left-0 right-0 bg-white shadow-lg border-t border-gray-200 "
       initial={{ y: 100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.8, delay: 0.2 }}

@@ -23,7 +23,7 @@ const Hero = () => {
   const roomOptions = ['Studio', '1', '2', '3', '4+'];
 
   return (
-    <section className="relative md:h-screen flex items-center justify-center">
+    <section className="relative md:h-screen flex items-center justify-center" id='top'>
       {/* Image de fond */}
       <div className="absolute inset-0 z-0">
         <img

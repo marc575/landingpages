@@ -10,7 +10,7 @@ import Properties from '../components/evergreen/Properties';
 import Reviews from '../components/evergreen/Reviews';
 import Faq from '../components/evergreen/Faq';
 import Contact from '../components/evergreen/Contact';
-import Footer from '../components/evergreen/Footer';
+import Footer from '../components/Footer';
 
 
 function Evergreen() {
@@ -54,7 +54,7 @@ function Evergreen() {
             <Reviews />
             <Faq />
             <Contact />
-            <Footer />
+            <Footer title={"EverGreen"} />
             <Sidebar />
 
             <Popup show={isInactive} onClose={() => setIsInactive(false)} />

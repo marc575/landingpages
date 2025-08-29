@@ -12,7 +12,7 @@ const Find = () => {
   }, []);
 
   return (
-    <div className="bg-white py-16 md:py-24 px-4 sm:px-6 lg:px-8">
+    <div className="bg-white py-16 md:py-24 px-4 sm:px-6 lg:px-8" id='discovery'>
       <div className="max-w-8xl mx-auto">
         <div className={`flex flex-col lg:flex-row rounded-xl overflow-hidden transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           

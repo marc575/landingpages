@@ -19,15 +19,18 @@ const Navbar = () => {
   }, []);
 
   const navItems = [
-    { name: 'Accueil', href: '#home' },
-    { name: 'Explorer', href: '#explore' },
-    { name: 'Favoris', href: '#favorites' },
-    { name: 'Contact', href: '#contact' }
+    { name: 'Home', href: '#top' },
+    { name: 'About', href: '#about' },
+    { name: 'Discovery', href: '#discovery' },
+    { name: 'Properties', href: '#properties' },
+    { name: 'Reviews', href: '#reviews' },
+    { name: 'FAQs', href: '#faq' },
+    { name: 'Contact', href: '#contact' },
   ];
 
   const languages = [
-    { code: 'FR', name: 'Français' },
     { code: 'EN', name: 'English' },
+    { code: 'FR', name: 'Français' },
     { code: 'ES', name: 'Español' }
   ];
 
@@ -149,7 +152,7 @@ const Navbar = () => {
                     className="block w-full px-4 py-2 mt-2 rounded-md text-base font-medium text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-300 text-center"
                     onClick={() => setIsMenuOpen(false)}
                 >
-                    Contactez-nous
+                    Contact
                     <FaArrowRight className="inline ml-2" />
                 </a>
             </div>

@@ -17,7 +17,7 @@ const Hero = () => {
   ];
 
   return (
-    <section className="relative h-screen flex items-center justify-center">
+    <section className="relative h-screen flex items-center justify-center" id='top'>
       {/* Image de fond */}
       <div className="absolute inset-0 z-0">
         <img
@@ -81,14 +81,14 @@ const Hero = () => {
                     </div>
                 </div>
             </motion.div>
-
-            <PodcastPlayer 
-                title="Live de BBC World Service" 
-                image={HeroImage2} 
-                duration="5:22"
-            />
         </div>
       </div>
+
+      <PodcastPlayer 
+          title="Live de BBC World Service" 
+          image={HeroImage2} 
+          duration="5:22"
+      />
     </section>
   );
 };

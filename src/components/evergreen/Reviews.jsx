@@ -110,7 +110,7 @@ const Reviews = () => {
   };
 
   return (
-    <div className="bg-white py-16 md:py-24 px-4 sm:px-6 lg:px-8">
+    <div className="bg-white py-16 md:py-24 px-4 sm:px-6 lg:px-8" id='reviews'>
       <div className="max-w-8xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-semibold text-gray-900 mb-4">What our customers say</h2>

@@ -19,15 +19,17 @@ const Navbar = () => {
   }, []);
 
   const navItems = [
-    { name: 'Accueil', href: '#home' },
-    { name: 'Episodes', href: '#episodes' },
-    { name: 'Avis clients', href: '#revieww' },
+    { name: 'Home', href: '#top' },
+    { name: 'About', href: '#about' },
+    { name: 'Features', href: '#features' },
+    { name: 'Reviews', href: '#reviews' },
+    { name: 'Price', href: '#price' },
     { name: 'Contact', href: '#contact' }
   ];
 
   const languages = [
-    { code: 'FR', name: 'Français' },
     { code: 'EN', name: 'English' },
+    { code: 'FR', name: 'Français' },
     { code: 'ES', name: 'Español' }
   ];
 
@@ -39,7 +41,7 @@ const Navbar = () => {
       transition={{ duration: 0.5 }}
     >
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16 md:h-20">
+        <div className="flex justify-between items-center h-auto py-2">
           {/* Menu mobile */}
           <div className="md:hidden">
             <button
@@ -116,7 +118,7 @@ const Navbar = () => {
                 href="/five"
                 className={`hidden md:inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md transition-all duration-300 ${scrolled ? 'bg-yellow-500 text-white hover:bg-yellow-400' : 'bg-yellow-500 text-white hover:bg-yellow-400'} shadow-sm hover:shadow-md`}
             >
-                S'abonner
+                Subscribe
                 <FaArrowRight className="ml-2" />
             </a>
           </div>
@@ -148,7 +150,7 @@ const Navbar = () => {
                     className="block w-full px-4 py-2 mt-2 rounded-md text-base font-medium text-white bg-yellow-500 hover:bg-yellow-400 transition-colors duration-300 text-center"
                     onClick={() => setIsMenuOpen(false)}
                 >
-                    S'abonner
+                    Subscribe
                     <FaArrowRight className="inline ml-2" />
                 </a>
             </div>

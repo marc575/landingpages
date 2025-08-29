@@ -3,6 +3,12 @@ import Hero from '../components/podcast/Hero'
 import Sidebar from '../components/Sidebar'
 import Navbar from '../components/podcast/Navbar'
 import Popup from '../components/Popup';
+import About from '../components/podcast/About';
+import Features from '../components/podcast/Features';
+import Reviews from '../components/podcast/Reviews';
+import Bundle from '../components/podcast/Bundle';
+import Newsletter from '../components/podcast/Newsletter';
+import Footer from '../components/Footer';
 
 
 function Podcast() {
@@ -39,6 +45,12 @@ function Podcast() {
         </header>
         <main>
             <Hero />
+            <About />
+            <Features />
+            <Reviews />
+            <Bundle />
+            <Newsletter />
+            <Footer title={"PodCast"} />
             <Sidebar />
 
             <Popup show={isInactive} onClose={() => setIsInactive(false)} />
