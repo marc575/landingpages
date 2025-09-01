@@ -3,6 +3,12 @@ import Hero from '../components/calmnest/Hero'
 import Navbar from '../components/calmnest/Navbar'
 import Sidebar from '../components/Sidebar'
 import Popup from '../components/Popup';
+import About from '../components/calmnest/About';
+import Services from '../components/calmnest/Services';
+import Schedule from '../components/calmnest/Schedule';
+import Testimonials from '../components/calmnest/Testimonials';
+import Contact from '../components/calmnest/Contact';
+import Footer from '../components/Footer';
 
 function Calmnest() {
   const [isInactive, setIsInactive] = useState(false);
@@ -38,6 +44,12 @@ function Calmnest() {
         </header>
         <main>
             <Hero />
+            <About />
+            <Services />
+            <Schedule />
+            <Testimonials />
+            <Contact />
+            <Footer />
             <Sidebar />
 
             <Popup show={isInactive} onClose={() => setIsInactive(false)} />
