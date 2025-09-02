@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
-import HeroImage from "../../assets/genova/banniere1.jpg";
-import HeroImage2 from "../../assets/genova/banniere2.jpg";
-import HeroImage3 from "../../assets/genova/banniere3.jpg";
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -68,7 +65,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative h-screen min-h-[600px] overflow-hidden">
+    <section id='top' className="relative h-screen min-h-[600px] overflow-hidden">
       {/* Carrousel d'images */}
       <AnimatePresence mode="wait">
         <motion.div

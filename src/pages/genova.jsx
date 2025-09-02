@@ -1,8 +1,15 @@
 import React, { useEffect, useState } from 'react'
 import Hero from '../components/genova/Hero'
+import Vehicules from '../components/genova/Vehicules'
 import Navbar from '../components/genova/Navbar'
 import Sidebar from '../components/Sidebar'
 import Popup from '../components/Popup';
+import Services from '../components/genova/Services'
+import About from '../components/genova/About'
+import Contact from '../components/genova/Contact'
+import Testimonials from '../components/genova/Testimonials'
+import FAQ from '../components/genova/FAQ'
+import Newsletter from '../components/genova/Newsletter'
 
 function Genova() {
   const [isInactive, setIsInactive] = useState(false);
@@ -38,6 +45,13 @@ function Genova() {
         </header>
         <main>
             <Hero />
+            <Vehicules />
+            <Services />
+            <About />
+            <Testimonials />
+            <FAQ />
+            <Newsletter />
+            <Contact />
             <Sidebar />
 
             <Popup show={isInactive} onClose={() => setIsInactive(false)} />

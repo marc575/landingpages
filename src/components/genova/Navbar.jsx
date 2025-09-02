@@ -20,16 +20,18 @@ const Navbar = () => {
   }, [scrolled]);
 
   const navItems = [
-    { name: 'Accueil', href: '#home' },
+    { name: 'Accueil', href: '#top' },
+    { name: 'Véhicules', href: '#vehicules' },
     { name: 'Services', href: '#services' },
-    { name: 'Projets', href: '#projects' },
-    { name: 'À propos', href: '#about' },
+    { name: 'A Propos', href: '#about' },
+    { name: 'Avis Clients', href: '#reviews' },
+    { name: 'FAQs', href: '#faq' },
   ];
 
   return (
     <header className={`fixed w-full z-50 transition-all duration-500 ${scrolled ? 'bg-white shadow-sm' : 'bg-transparent'}`}>
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16 md:h-20">
+        <div className="flex justify-between items-center py-2">
             {/* Logo à gauche */}
             <div className="flex-shrink-0">
                 <a href="#" className="flex items-center">
@@ -59,7 +61,7 @@ const Navbar = () => {
                     href="#contact"
                     className={`inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md transition-all duration-300 ${scrolled ? 'bg-gray-900 text-white hover:bg-blue-700' : 'bg-gray-900 text-white hover:bg-blue-700'} shadow-sm hover:shadow-md`}
                 >
-                    Contact Us
+                    Contactez-nous
                     <FaArrowRight className="ml-2" />
                 </a>
             </div> 
@@ -97,7 +99,7 @@ const Navbar = () => {
             className="block w-full px-4 py-2 mt-2 rounded-md text-base font-medium text-white bg-gray-900 hover:bg-blue-700 transition-colors duration-300 text-center"
             onClick={() => setIsMenuOpen(false)}
           >
-            Contact Us
+            Contactez-nous
             <FaArrowRight className="inline ml-2" />
           </a>
         </div>
