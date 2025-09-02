@@ -10,6 +10,7 @@ import Contact from '../components/genova/Contact'
 import Testimonials from '../components/genova/Testimonials'
 import FAQ from '../components/genova/FAQ'
 import Newsletter from '../components/genova/Newsletter'
+import Footer from '../components/Footer'
 
 function Genova() {
   const [isInactive, setIsInactive] = useState(false);
@@ -52,6 +53,7 @@ function Genova() {
             <FAQ />
             <Newsletter />
             <Contact />
+            <Footer />
             <Sidebar />
 
             <Popup show={isInactive} onClose={() => setIsInactive(false)} />
