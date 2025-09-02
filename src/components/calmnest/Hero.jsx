@@ -14,7 +14,7 @@ const Hero = () => {
   ];
 
   return (
-    <section className="bg-white relative">
+    <section className="bg-white relative" id='top'>
         <div className="w-full mx-auto">
             <div className="flex flex-col lg:flex-row items-center gap-12">
             {/* Texte et CTA */}

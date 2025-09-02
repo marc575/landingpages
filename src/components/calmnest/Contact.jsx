@@ -88,7 +88,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-16 md:py-24 bg-gray-50">
+    <section id="contact" className="py-16 md:py-24 bg-white">
       <div className="container mx-auto px-4 md:px-8">
         <motion.div 
           className="text-center mb-16"
@@ -196,7 +196,7 @@ const Contact = () => {
                 
                 <motion.button 
                   type="submit"
-                  className="w-full bg-blue-600 text-white font-medium py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors duration-300"
+                  className="w-full bg-blue-700 text-white font-medium py-3 px-6 rounded-lg hover:bg-blue-600 transition-colors duration-300"
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                 >
@@ -214,11 +214,11 @@ const Contact = () => {
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
           >
-            <div className="bg-blue-600 text-white rounded-xl p-6 md:p-8 h-full">
+            <div className="bg-blue-700 text-white rounded-xl p-6 md:p-8 h-full">
               <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
-              <p className="mb-8 opacity-90">Feel free to reach out to us through any of these channels. We're here to help you on your yoga journey.</p>
+              <p className="mb-8 opacity-90">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt porro adipisci pariatur iure culpa blanditiis magnam tempora.</p>
               
-              <div className="space-y-6">
+              <div className="flex flex-wrap gap-6">
                 <div className="flex items-start">
                   <div className="bg-blue-500 p-3 rounded-lg mr-4">
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -255,8 +255,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-bold text-lg mb-1">Email Us</h4>
-                    <p className="opacity-90">hello@serenityyoga.com</p>
-                    <p className="opacity-90">support@serenityyoga.com</p>
+                    <p className="opacity-90">hello@calmnest.com</p>
+                    <p className="opacity-90">support@calmnest.com</p>
                   </div>
                 </div>
               </div>

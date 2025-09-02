@@ -193,7 +193,7 @@ const Testimonials = () => {
             className="text-3xl md:text-4xl font-bold text-gray-800 mb-4"
             variants={itemVariants}
           >
-            What Our Students Say
+            What Our <span className='text-blue-900'>Students</span> Say
           </motion.h2>
           <motion.p 
             className="text-gray-500 max-w-2xl mx-auto text-md"
@@ -230,7 +230,7 @@ const Testimonials = () => {
             <AnimatePresence mode="wait">
               <motion.div 
                 key={currentIndex}
-                className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 pb-6"
+                className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pb-6"
                 variants={containerVariants}
                 initial="hidden"
                 animate="visible"

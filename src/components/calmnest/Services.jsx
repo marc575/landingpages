@@ -129,7 +129,7 @@ const Services = () => {
             className="text-4xl md:text-5xl font-bold text-gray-800 mb-4"
             variants={itemVariants}
           >
-            Our Yoga Classes
+            Our <span className='text-blue-900'>Yoga</span> Classes
           </motion.h2>
           <motion.p 
             className="text-gray-500 max-w-2xl mx-auto text-md"
@@ -140,7 +140,7 @@ const Services = () => {
         </motion.div>
 
         <motion.div 
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"

@@ -63,7 +63,7 @@ const About = () => {
               className="text-4xl md:text-5xl mb-6 font-bold leading-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-700"
               variants={itemVariants}
             >
-              About Our Yoga <span className='text-blue-900'>Studio</span>
+              About Our <span className='text-blue-900'>Yoga</span> Studio
             </motion.h2>
             
             <motion.p 

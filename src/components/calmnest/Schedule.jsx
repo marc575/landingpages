@@ -128,7 +128,7 @@ const Schedule = () => {
             className="text-3xl md:text-4xl font-bold text-gray-800 mb-4"
             variants={itemVariants}
           >
-            Class Schedule
+            Class <span className='text-blue-900'>Schedule</span>
           </motion.h2>
           <motion.p 
             className="text-gray-500 max-w-2xl mx-auto text-md"

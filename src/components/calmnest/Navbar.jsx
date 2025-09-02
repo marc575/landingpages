@@ -20,11 +20,12 @@ const Navbar = () => {
   }, [scrolled]);
 
   const navItems = [
-    { name: 'Accueil', href: '#home' },
+    { name: 'Home', href: '#top' },
+    { name: 'About', href: '#about' },
     { name: 'Services', href: '#services' },
-    { name: 'Projets', href: '#projects' },
-    { name: 'À propos', href: '#about' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Schedule', href: '#schedule' },
+    { name: 'Testimonials', href: '#testimonials' },
+    { name: 'FAQs', href: '#faq' },
   ];
 
   return (
@@ -57,7 +58,7 @@ const Navbar = () => {
                     href="#contact"
                     className={`inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md transition-all duration-300 ${scrolled ? 'bg-blue-600 text-white hover:bg-blue-700' : 'bg-blue-600 text-white hover:bg-blue-700'} shadow-sm hover:shadow-md`}
                 >
-                    Contactez-nous
+                    Contact
                     <FaArrowRight className="ml-2" />
                 </a>
             </nav>
@@ -96,7 +97,7 @@ const Navbar = () => {
             className="block w-full px-4 py-2 mt-2 rounded-md text-base font-medium text-white bg-blue-600 hover:bg-blue-700 transition-colors duration-300 text-center"
             onClick={() => setIsMenuOpen(false)}
           >
-            Contactez-nous
+            Contact Us
             <FaArrowRight className="inline ml-2" />
           </a>
         </div>
