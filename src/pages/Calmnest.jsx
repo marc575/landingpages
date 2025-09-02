@@ -10,6 +10,7 @@ import Testimonials from '../components/calmnest/Testimonials';
 import Contact from '../components/calmnest/Contact';
 import Footer from '../components/Footer';
 import FAQ from '../components/calmnest/FAQ';
+import Newsletter from '../components/calmnest/Newsletter';
 
 function Calmnest() {
   const [isInactive, setIsInactive] = useState(false);
@@ -50,6 +51,7 @@ function Calmnest() {
             <Schedule />
             <Testimonials />
             <FAQ />
+            <Newsletter />
             <Contact />
             <Footer />
             <Sidebar />
