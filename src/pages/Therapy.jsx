@@ -3,6 +3,14 @@ import Hero from '../components/therapy/Hero'
 import Sidebar from '../components/Sidebar'
 import Navbar from '../components/therapy/Navbar'
 import Popup from '../components/Popup';
+import Relationship from '../components/therapy/Relationship';
+import Conflict from '../components/therapy/Conflict';
+import Process from '../components/therapy/Process';
+import Testimonials from '../components/therapy/Testimonials';
+import Emergency from '../components/therapy/Emergency';
+import TherapyCubes from '../components/therapy/TherapyCubes';
+import Contact from '../components/therapy/Contact';
+import Footer from '../components/Footer';
 
 function Therapy() {
   const [isInactive, setIsInactive] = useState(false);
@@ -38,6 +46,14 @@ function Therapy() {
         </header>
         <main>
             <Hero />
+            <Relationship />
+            <Conflict />
+            <Process />
+            <Testimonials />
+            <Emergency />
+            <TherapyCubes />
+            <Contact />
+            <Footer title="Therapy" />
             <Sidebar />
 
             <Popup show={isInactive} onClose={() => setIsInactive(false)} />

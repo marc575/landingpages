@@ -20,17 +20,19 @@ const Navbar = () => {
   }, [scrolled]);
 
   const navItems = [
-    { name: 'Accueil', href: '#home' },
-    { name: 'Services', href: '#services' },
-    { name: 'Projets', href: '#projects' },
-    { name: 'À propos', href: '#about' },
-    { name: 'Contact', href: '#contact' },
+    { name: 'Accueil', href: '#top' },
+    { name: 'Diagnostiques', href: '#diagnostic' },
+    { name: 'Gestions des Conflits', href: '#conflits' },
+    { name: 'Processus', href: '#process' },
+    { name: 'Avis Clients', href: '#reviews' },
+    { name: 'Urgences', href: '#emergency' },
+    { name: 'Méthodes thérapeutiques', href: '#therapy' },
   ];
 
   return (
     <header className={`fixed w-full z-50 transition-all duration-500 ${scrolled ? 'bg-white shadow-sm' : 'bg-transparent'}`}>
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16 md:h-20">
+        <div className="flex justify-between items-center h-auto py-2">
             {/* Logo à gauche */}
             <div className="flex-shrink-0">
                 <a href="#" className="flex items-center">
@@ -38,7 +40,7 @@ const Navbar = () => {
                 </a>
             </div>
 
-            <div className="hidden md:block">
+            <div className="hidden xl:block">
                 {/* Menu desktop (centré) */}
                 <nav className="hidden md:flex items-center space-x-6">
                     {navItems.map((item) => (
@@ -54,19 +56,19 @@ const Navbar = () => {
                 </nav>
             </div>
           
-            <div className="hidden md:block">   
+            <div className="hidden xl:block">   
                 {/* Bouton CTA à droite */}
                 <a
                     href="#contact"
                     className={`inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md transition-all duration-300 ${scrolled ? 'bg-green-700 text-white hover:bg-green-600' : 'bg-green-700 text-white hover:bg-green-600'} shadow-sm hover:shadow-md`}
                 >
-                    Contact Us
+                    Contactez-nous
                     <FaArrowRight className="ml-2" />
                 </a>
             </div> 
 
           {/* Menu mobile */}
-          <div className="md:hidden flex items-center">
+          <div className="xl:hidden flex items-center">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className={`inline-flex items-center justify-center p-2 rounded-md ${scrolled ? 'text-gray-800' : 'text-black'} hover:text-purple-600 focus:outline-none transition duration-300`}
@@ -80,7 +82,7 @@ const Navbar = () => {
 
       {/* Menu mobile ouvert */}
       <div
-        className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} ${scrolled ? 'bg-white' : 'bg-white'} transition-all duration-300`}
+        className={`xl:hidden ${isMenuOpen ? 'block' : 'hidden'} ${scrolled ? 'bg-white' : 'bg-white'} transition-all duration-300`}
       >
         <div className="px-2 pt-2 pb-4 space-y-1 sm:px-3">
           {navItems.map((item) => (
@@ -98,7 +100,7 @@ const Navbar = () => {
             className="block w-full px-4 py-2 mt-2 rounded-md text-base font-medium text-white bg-green-700 hover:bg-green-600 transition-colors duration-300 text-center"
             onClick={() => setIsMenuOpen(false)}
           >
-            Contact Us
+            Contactez-nous
             <FaArrowRight className="inline ml-2" />
           </a>
         </div>

@@ -51,7 +51,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative lg:h-screen overflow-hidden bg-gradient-to-tl from-green-50 to-white pt-24 pb-8 px-4 sm:px-6 lg:px-8">
+    <section id='top' className="relative overflow-hidden bg-gradient-to-tl from-green-50 to-white pt-24 pb-8 px-4 sm:px-6 lg:px-8">
       {/* Première sous-section : Titre + Description + Boutons */}
       <div className="max-w-8xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center gap-6 md:gap-12 mb-8">
@@ -63,8 +63,8 @@ const Hero = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif leading-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-700 ">
-              When Family Life Gets In The Way
+            <h1 className="text-4xl md:text-5xl font-serif leading-tight bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-700 ">
+              Quand la Vie de Famille prend le dessus
             </h1>
           </motion.div>
 
@@ -86,7 +86,7 @@ const Hero = () => {
                 whileTap={{ scale: 0.95 }}
                 className="px-4 py-2 bg-green-600 hover:bg-green-700 text-white font-medium rounded-lg shadow-md flex items-center gap-2 transition-all"
               >
-                Prendre rendez-vous <FiArrowRight />
+                Rendez-vous <FiArrowRight />
               </motion.button>
               
               <motion.button
